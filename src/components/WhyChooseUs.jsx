@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
       id: 5,
       icon: '✅',
       title: 'Certified Safe',
-      description: 'ISO certified and approved by safety standards authorities'
+      description: 'certified and approved by safety standards authorities'
     },
     {
       id: 6,
