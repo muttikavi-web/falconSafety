@@ -1,0 +1,230 @@
+/* Trust Badges Section */
+.trust-badges {
+  position: relative;
+  padding: 2rem 0;
+  margin: 0;
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.05) 0%, rgba(251, 193, 36, 0.03) 100%);
+  border-top: 2px solid #d4af37;
+  border-bottom: 2px solid #d4af37;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.trust-badges::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.badges-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Badges Grid */
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.badge-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  animation: slideInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.badge-item:nth-child(1) { animation-delay: 0.1s; }
+.badge-item:nth-child(2) { animation-delay: 0.2s; }
+.badge-item:nth-child(3) { animation-delay: 0.3s; }
+.badge-item:nth-child(4) { animation-delay: 0.4s; }
+.badge-item:nth-child(5) { animation-delay: 0.5s; }
+.badge-item:nth-child(6) { animation-delay: 0.6s; }
+
+.badge-item:hover {
+  border-color: #d4af37;
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.15);
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+.badge-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+  display: block;
+  animation: float 3s ease-in-out infinite;
+}
+
+.badge-title {
+  font-size: 1.1rem;
+  color: #333333;
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
+
+.badge-subtitle {
+  font-size: 0.85rem;
+  color: #999999;
+  margin: 0;
+}
+
+/* Trust Promise */
+.trust-promise {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(251, 193, 36, 0.08) 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  animation: slideInUp 0.8s ease-out 0.7s both;
+}
+
+.trust-promise h3 {
+  font-size: 1.3rem;
+  color: #333333;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.trust-promise p {
+  font-size: 0.95rem;
+  color: #666666;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .badges-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .trust-badges {
+    padding: 1.5rem 0;
+  }
+
+  .badges-container {
+    padding: 0 1.5rem;
+  }
+
+  .badges-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .badge-item {
+    padding: 1rem;
+  }
+
+  .badge-icon {
+    font-size: 2rem;
+  }
+
+  .badge-title {
+    font-size: 1rem;
+  }
+
+  .badge-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .trust-promise h3 {
+    font-size: 1.1rem;
+  }
+
+  .trust-promise p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-badges {
+    padding: 1rem 0;
+  }
+
+  .badges-container {
+    padding: 0 1rem;
+  }
+
+  .badges-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .badge-item {
+    padding: 0.8rem;
+  }
+
+  .badge-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .badge-title {
+    font-size: 0.9rem;
+  }
+
+  .badge-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .trust-promise {
+    padding: 1rem;
+  }
+
+  .trust-promise h3 {
+    font-size: 1rem;
+  }
+
+  .trust-promise p {
+    font-size: 0.8rem;
+  }
+}
