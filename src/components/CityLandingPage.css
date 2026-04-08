@@ -1,0 +1,156 @@
+.city-hero {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  overflow: hidden;
+  padding: 60px 20px;
+}
+
+.city-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.city-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  color: white;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.city-hero-badge {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.city-hero-content h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 700;
+  margin: 20px 0;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.city-hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: #e0e7ff;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.city-location-benefit {
+  font-size: 16px;
+  color: #a7f3d0;
+  margin: 15px 0;
+  font-weight: 500;
+  padding: 10px 20px;
+  background: rgba(167, 243, 208, 0.1);
+  border-left: 3px solid #a7f3d0;
+  border-radius: 4px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.city-cta {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.city-btn-primary,
+.city-btn-secondary {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.city-btn-primary {
+  background: linear-gradient(135deg, #d4af37 0%, #e5c158 100%);
+  color: #0f172a;
+}
+
+.city-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+}
+
+.city-btn-primary a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.city-btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+}
+
+.city-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .city-hero {
+    min-height: 400px;
+    padding: 40px 20px;
+  }
+
+  .city-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .city-hero-description {
+    font-size: 16px;
+  }
+
+  .city-cta {
+    flex-direction: column;
+  }
+
+  .city-btn-primary,
+  .city-btn-secondary {
+    width: 100%;
+  }
+}
