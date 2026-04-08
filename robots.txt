@@ -6,7 +6,7 @@ Disallow: /api
 Disallow: /*.pdf$
 
 # Sitemaps
-Sitemap: https://falconinvisiblegrills.com/sitemap.xml
+Sitemap: https://www.falconinvisiblegrill.com/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1
