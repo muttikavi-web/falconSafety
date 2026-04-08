@@ -11,12 +11,12 @@ export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const heroImages = [
-    { id: 1, src: AestheticView, title: 'Aesthetic Design' },
-    { id: 2, src: Durability, title: 'Durability & Low Maintenance' },
-    { id: 3, src: EcoFriendly, title: 'Eco Friendly' },
-    { id: 4, src: EnhancedSafety, title: 'Enhanced Safety' },
-    { id: 5, src: PetProtection, title: 'Pet Protection' },
-    { id: 6, src: UnobstructedViews, title: 'Unobstructed Views' }
+    { id: 1, src: AestheticView, title: 'Aesthetic Design', alt: 'Modern invisible grill installation with aesthetic design maintaining unobstructed views' },
+    { id: 2, src: Durability, title: 'Durability & Low Maintenance', alt: 'Durable invisible grills with low maintenance requirements lasting 25+ years' },
+    { id: 3, src: EcoFriendly, title: 'Eco Friendly', alt: 'Eco-friendly invisible grill system made from sustainable materials' },
+    { id: 4, src: EnhancedSafety, title: 'Enhanced Safety', alt: 'Enhanced safety invisible grill protecting family from falls and intrusions' },
+    { id: 5, src: PetProtection, title: 'Pet Protection', alt: 'Pet safety invisible grill protecting cats and dogs while maintaining views' },
+    { id: 6, src: UnobstructedViews, title: 'Unobstructed Views', alt: 'Premium invisible grill providing unobstructed views impossible to see from outside' }
   ];
 
   // Auto-rotate carousel every 4 seconds
@@ -38,6 +38,8 @@ export default function Hero() {
               opacity: index === currentSlide ? 1 : 0,
               transition: 'opacity 1s ease-in-out'
             }}
+            title={image.alt}
+            aria-label={image.alt}
           ></div>
         ))}
         <div className="hero-overlay"></div>

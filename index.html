@@ -36,6 +36,152 @@
     <!-- Theme Color -->
     <meta name="theme-color" content="#0f172a" />
     <meta name="msapplication-TileColor" content="#d4af37" />
+    
+    <!-- JSON-LD Structured Data for LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Falcon Invisible Grills",
+      "image": "https://falconinvisiblegrills.com/og-image.jpg",
+      "description": "Professional invisible grill systems combining security with elegant design. Premium balcony grills, window grills, child safety and pet safety solutions.",
+      "url": "https://falconinvisiblegrills.com",
+      "telephone": "+919000888367",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[Your Street Address]",
+        "addressLocality": "[Your City]",
+        "addressRegion": "[Your State]",
+        "postalCode": "[Your Zip Code]",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.facebook.com/falconinvisiblegrills",
+        "https://www.instagram.com/falconinvisiblegrills",
+        "https://www.youtube.com/falconinvisiblegrills"
+      ],
+      "priceRange": "INR 5000 - INR 50000",
+      "areaServed": "IN",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "152"
+      }
+    }
+    </script>
+
+    <!-- JSON-LD for Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Falcon Invisible Grills",
+      "url": "https://falconinvisiblegrills.com",
+      "logo": "https://falconinvisiblegrills.com/logo.png",
+      "description": "Premium invisible grill manufacturer and installer providing security solutions for homes and businesses",
+      "sameAs": [
+        "https://www.facebook.com/falconinvisiblegrills",
+        "https://www.instagram.com/falconinvisiblegrills"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "telephone": "+919000888367"
+      }
+    }
+    </script>
+
+    <!-- JSON-LD for Services -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Invisible Grills Installation",
+      "description": "Professional installation of invisible grills for balconies, windows, child safety, and pet protection",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Falcon Invisible Grills",
+        "url": "https://falconinvisiblegrills.com"
+      },
+      "areaServed": "IN",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Invisible Grill Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Balcony Grills",
+            "description": "Premium invisible grills for balconies - high-strength steel with UV resistance",
+            "price": "299-599",
+            "priceCurrency": "INR"
+          },
+          {
+            "@type": "Offer",
+            "name": "Window Grills",
+            "description": "Elegant protection for windows with custom sizing and weatherproof design",
+            "price": "199-399",
+            "priceCurrency": "INR"
+          },
+          {
+            "@type": "Offer",
+            "name": "Child Safety Grills",
+            "description": "Certified child safety grills that prevent falls while remaining invisible",
+            "price": "249-449",
+            "priceCurrency": "INR"
+          },
+          {
+            "@type": "Offer",
+            "name": "Pet Safety Grills",
+            "description": "Durable mesh designed to keep pets safe without restricting their view",
+            "price": "199-349",
+            "priceCurrency": "INR"
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD for FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are invisible grills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Invisible grills are security systems combining high-strength mesh with minimal aesthetic impact, providing protection while maintaining unobstructed views of your surroundings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are invisible grills durable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our invisible grills are made with premium materials engineered for durability, corrosion resistance, and UV protection, lasting 25+ years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are invisible grills safe for children and pets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We offer specialized child safety and pet safety variants that meet international safety standards and prevent falls and escapes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the installation process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our certified technicians handle everything from measurement to mounting. Installation is typically completed within 2-3 hours with 24/7 customer support."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

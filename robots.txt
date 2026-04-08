@@ -1,0 +1,16 @@
+# Robots.txt for FalconInvisibleGrills
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /*.pdf$
+
+# Sitemaps
+Sitemap: https://falconinvisiblegrills.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Allow mobile crawlers
+User-agent: Googlebot-Mobile
+Allow: /

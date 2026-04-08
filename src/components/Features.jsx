@@ -14,42 +14,48 @@ const Features = () => {
       icon: '🛡️',
       title: 'Maximum Security',
       description: 'High-strength materials engineered for ultimate protection and durability',
-      image: EnhancedSafety
+      image: EnhancedSafety,
+      alt: 'Maximum security invisible grill protecting home from intruders and falls'
     },
     {
       id: 2,
       icon: '✨',
       title: 'Invisible Design',
       description: 'Seamlessly blends with architecture - modern protection without compromise',
-      image: UnobstructedViews
+      image: UnobstructedViews,
+      alt: 'Invisible grill design providing crystal clear unobstructed views'
     },
     {
       id: 3,
       icon: '🐾',
       title: 'Pet Safe',
       description: 'Perfect for protecting pets while maintaining a clear, unobstructed view',
-      image: PetProtection
+      image: PetProtection,
+      alt: 'Pet safety invisible grill system protecting dogs and cats'
     },
     {
       id: 4,
       icon: '🌍',
       title: 'Eco Friendly',
       description: 'Sustainable materials that are environmentally conscious and durable',
-      image: EcoFriendly
+      image: EcoFriendly,
+      alt: 'Eco-friendly sustainable invisible grill materials'
     },
     {
       id: 5,
       icon: '🔧',
       title: 'Low Maintenance',
       description: 'Durable construction requires minimal upkeep and maintenance over years',
-      image: Durability
+      image: Durability,
+      alt: 'Low maintenance invisible grill with minimal care requirements'
     },
     {
       id: 6,
       icon: '💎',
       title: 'Premium Quality',
       description: 'Best-in-class materials and craftsmanship for lasting performance',
-      image: AestheticView
+      image: AestheticView,
+      alt: 'Premium quality invisible grill with best-in-class craftsmanship'
     }
   ];
 
@@ -67,7 +73,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div key={feature.id} className="feature-card" style={{ '--index': index }}>
               <div className="feature-image">
-                <img src={feature.image} alt={feature.title} />
+                <img src={feature.image} alt={feature.alt} title={feature.alt} />
               </div>
               <div className="feature-icon">{feature.icon}</div>
               <h3>{feature.title}</h3>

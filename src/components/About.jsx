@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-image">
           <div className="image-wrapper">
-            <img src={OwnerProfile} alt="Falcon Team" />
+            <img src={OwnerProfile} alt="Falcon Invisible Grills team and founder - 15+ years of expertise in invisible grill installation" title="Falcon Invisible Grills Expert Team" />
           </div>
         </div>
 

@@ -19,7 +19,8 @@ const Gallery = () => {
       category: 'Design',
       description: 'Beautiful invisible grills that blend seamlessly with your home decor',
       fullDescription: 'Our aesthetic invisible grills are specifically designed to enhance the beauty of your living space. With premium stainless steel construction and sleek design, these grills provide complete security while maintaining unobstructed views. Perfect for modern homes where style matters as much as safety.',
-      src: AestheticView
+      src: AestheticView,
+      alt: 'Aesthetic invisible grill installation for modern homes with premium stainless steel design'
     },
     {
       id: 2,
@@ -27,7 +28,8 @@ const Gallery = () => {
       category: 'Installation',
       description: 'Professional installation on balconies for unobstructed city views',
       fullDescription: 'Transform your balcony into a secure yet open space. Our expert installation team ensures perfect fitting and alignment on all balcony configurations. The transparent design keeps your panoramic city views intact while protecting your family from accidental falls and unauthorized access.',
-      src: balconyview
+      src: balconyview,
+      alt: 'Professional balcony invisible grill installation with clear city views'
     },
     {
       id: 3,
@@ -35,7 +37,8 @@ const Gallery = () => {
       category: 'Features',
       description: 'High-strength materials built to last for decades with minimal upkeep',
       fullDescription: 'Built to last! Our invisible grills are crafted from premium stainless steel that withstands harsh weather conditions and doesn\'t rust. Minimal maintenance is required - just occasional cleaning with soap and water. Enjoy 5+ years of worry-free protection without degradation or fading.',
-      src: Durability
+      src: Durability,
+      alt: 'Durable low maintenance invisible grill made from premium stainless steel'
     },
     {
       id: 4,
@@ -43,7 +46,8 @@ const Gallery = () => {
       category: 'Sustainability',
       description: 'Environmentally conscious solutions for modern homes',
       fullDescription: 'We\'re committed to sustainability! Our invisible grills use eco-friendly materials and manufacturing processes. The long lifespan means less replacement waste, and the transparent design maximizes natural light, reducing your energy consumption. Make a responsible choice for your family and the environment.',
-      src: EcoFriendly
+      src: EcoFriendly,
+      alt: 'Eco-friendly sustainable invisible grill system with environmental benefits'
     },
     {
       id: 5,
@@ -51,7 +55,8 @@ const Gallery = () => {
       category: 'Safety',
       description: 'Advanced safety features to protect your family and loved ones',
       fullDescription: 'Safety is paramount! Our grills are certified by international safety standards and tested for strength and durability. High-tensile stainless steel wires can support weight without breaking. Perfect for homes with children, seniors, and pets - providing peace of mind 24/7.',
-      src: EnhancedSafety
+      src: EnhancedSafety,
+      alt: 'Enhanced safety invisible grill with international certification for child and pet protection'
     },
     {
       id: 6,
@@ -59,7 +64,8 @@ const Gallery = () => {
       category: 'Safety',
       description: 'Safe and secure protection for your beloved pets',
       fullDescription: 'Keep your furry friends safe! These grills prevent pets from escaping or falling from heights while maintaining ventilation and light. The transparent design allows pets to see outside while staying protected. Safe spacing ensures no small pets can squeeze through.',
-      src: PetProtection
+      src: PetProtection,
+      alt: 'Pet safety invisible grill protecting dogs and cats from falls and escape'
     },
     {
       id: 7,
@@ -67,7 +73,8 @@ const Gallery = () => {
       category: 'Design',
       description: 'Enjoy clear, panoramic views without any visual barriers',
       fullDescription: 'Experience true transparency! Unlike traditional bars or grilles, our invisible grills are virtually see-through. Enjoy stunning city views, natural scenery, and beautiful sunsets from your windows and balconies without any visual obstruction. Security doesn\'t mean sacrificing your view!',
-      src: UnobstructedViews
+      src: UnobstructedViews,
+      alt: 'Invisible grill providing completely unobstructed crystal clear views'
     }
   ];
 
@@ -106,7 +113,8 @@ const Gallery = () => {
             <div className="carousel-main">
               <img
                 src={images[currentSlide].src}
-                alt={images[currentSlide].title}
+                alt={images[currentSlide].alt}
+                title={images[currentSlide].alt}
                 className="carousel-image"
                 onClick={() => setSelectedImage(images[currentSlide])}
               />
@@ -142,7 +150,7 @@ const Gallery = () => {
               style={{ '--index': index }}
             >
               <div className="gallery-image">
-                <img src={image.src} alt={image.title} />
+                <img src={image.src} alt={image.alt} title={image.alt} />
               </div>
               <div className="gallery-info">
                 <h3>{image.title}</h3>
@@ -158,7 +166,7 @@ const Gallery = () => {
         <div className="gallery-modal" onClick={() => setSelectedImage(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={() => setSelectedImage(null)}>×</button>
-            <img src={selectedImage.src} alt={selectedImage.title} />
+            <img src={selectedImage.src} alt={selectedImage.alt} title={selectedImage.alt} />
             <div className="modal-info">
               <h2>{selectedImage.title}</h2>
               <p className="modal-category">{selectedImage.category}</p>
