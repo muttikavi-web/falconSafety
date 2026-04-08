@@ -28,15 +28,25 @@ export default function Hero() {
   }, [heroImages.length]);
   return (
     <section id="hero" className="hero">
-      <div className="hero-background">
-        <div className="hero-gradient"></div>
-        <div className="hero-pattern"></div>
+      <div className="hero-carousel-background">
+        {heroImages.map((image, index) => (
+          <div
+            key={image.id}
+            className={`carousel-slide-bg ${index === currentSlide ? 'active' : ''}`}
+            style={{
+              backgroundImage: `url(${image.src})`,
+              opacity: index === currentSlide ? 1 : 0,
+              transition: 'opacity 1s ease-in-out'
+            }}
+          ></div>
+        ))}
+        <div className="hero-overlay"></div>
       </div>
 
       <div className="hero-container">
         <div className="hero-content">
           <span className="hero-badge">🚀 Premium Safety Solution</span>
-          <h1>Invisible Grills for Premium Protection</h1>
+          <h1>Invisible Grills for<br />Premium Protection</h1>
           <p>Experience ultimate safety without compromising on views. Our advanced invisible netting technology protects your family while maintaining crystal-clear visibility.</p>
           
           <div className="hero-cta">
@@ -62,34 +72,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hero-visual">
-          <div className="hero-carousel">
-            <div className="carousel-wrapper">
-              {heroImages.map((image, index) => (
-                <div
-                  key={image.id}
-                  className={`carousel-slide ${index === currentSlide ? 'active' : ''}`}
-                  style={{
-                    opacity: index === currentSlide ? 1 : 0,
-                    transition: 'opacity 1s ease-in-out'
-                  }}
-                >
-                  <img src={image.src} alt={image.title} />
-                  <div className="carousel-title">{image.title}</div>
-                </div>
-              ))}
-            </div>
-
-            <div className="carousel-indicators">
-              {heroImages.map((_, index) => (
-                <span
-                  key={index}
-                  className={`indicator ${index === currentSlide ? 'active' : ''}`}
-                  onClick={() => setCurrentSlide(index)}
-                ></span>
-              ))}
-            </div>
-          </div>
+        <div className="carousel-indicators">
+          {heroImages.map((_, index) => (
+            <span
+              key={index}
+              className={`indicator ${index === currentSlide ? 'active' : ''}`}
+              onClick={() => setCurrentSlide(index)}
+            ></span>
+          ))}
         </div>
       </div>
     </section>
