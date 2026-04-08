@@ -65,10 +65,68 @@ const CityLandingPage = ({ city, keywords }) => {
       document.head.appendChild(meta);
     }
 
+    // Update meta keywords
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (metaKeywords) {
+      metaKeywords.setAttribute('content', `invisible grills in ${city}, invisible grill ${city}, ${city} invisible grills, balcony grills, window grills, child safety grills, premium safety solutions`);
+    } else {
+      const meta = document.createElement('meta');
+      meta.name = 'keywords';
+      meta.content = `invisible grills in ${city}, invisible grill ${city}, ${city} invisible grills, balcony grills, window grills, child safety grills, premium safety solutions`;
+      document.head.appendChild(meta);
+    }
+
+    // Update Open Graph tags
+    let ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute('content', data.title);
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute('property', 'og:title');
+      meta.content = data.title;
+      document.head.appendChild(meta);
+    }
+
+    let ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) {
+      ogDescription.setAttribute('content', data.description);
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute('property', 'og:description');
+      meta.content = data.description;
+      document.head.appendChild(meta);
+    }
+
+    // Update Twitter tags
+    let twitterTitle = document.querySelector('meta[property="twitter:title"]');
+    if (twitterTitle) {
+      twitterTitle.setAttribute('content', data.title);
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute('property', 'twitter:title');
+      meta.content = data.title;
+      document.head.appendChild(meta);
+    }
+
+    let twitterDescription = document.querySelector('meta[property="twitter:description"]');
+    if (twitterDescription) {
+      twitterDescription.setAttribute('content', data.description);
+    } else {
+      const meta = document.createElement('meta');
+      meta.setAttribute('property', 'twitter:description');
+      meta.content = data.description;
+      document.head.appendChild(meta);
+    }
+
     // Update canonical URL
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
       canonical.setAttribute('href', `https://falconinvisiblegrill.com${window.location.pathname}`);
+    } else {
+      const link = document.createElement('link');
+      link.rel = 'canonical';
+      link.href = `https://falconinvisiblegrill.com${window.location.pathname}`;
+      document.head.appendChild(link);
     }
   }, [city, data]);
 
