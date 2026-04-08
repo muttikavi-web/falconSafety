@@ -47,9 +47,9 @@ export default function Hero() {
 
       <div className="hero-container">
         <div className="hero-content">
-          <span className="hero-badge">🚀 Premium Safety Solution</span>
-          <h1>Invisible Grills for<br />Premium Protection</h1>
-          <p>Experience ultimate safety without compromising on views. Our advanced invisible netting technology protects your family while maintaining crystal-clear visibility.</p>
+          <span className="hero-badge">🚀 Premium Safety Solution in South India</span>
+          <h1>Premium Invisible Grills<br />in Chennai, Vizag & Beyond</h1>
+          <p>Experience ultimate safety without compromising on views. Leading provider of invisible grills across Chennai, Vizag, Bangalore, and Hyderabad. Our advanced invisible netting technology protects your family while maintaining crystal-clear visibility.</p>
           
           <div className="hero-cta">
             <button className="btn-primary">

@@ -65,7 +65,7 @@ const Features = () => {
         <div className="features-header">
           <h2 className="section-title">Why Choose Falcon?</h2>
           <p className="section-subtitle">
-            Experience the perfect blend of security, elegance, and reliability
+            Trusted invisible grill provider in Chennai, Vizag, Bangalore & Hyderabad. Experience the perfect blend of security, elegance, and reliability.
           </p>
         </div>
 

@@ -17,8 +17,9 @@ const About = () => {
           
           <p className="about-description">
             At Falcon, we redefine security with invisible elegance. For over 15 years, we've been 
-            crafting premium invisible grills that protect what matters most without compromising 
-            the beauty of your space.
+            crafting premium invisible grills that protect what matters most in Chennai, Vizag, Bangalore, 
+            and Hyderabad without compromising the beauty of your space. Trusted by thousands of families 
+            across South India.
           </p>
 
           <div className="about-highlights">

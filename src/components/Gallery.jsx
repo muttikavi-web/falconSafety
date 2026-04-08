@@ -100,7 +100,7 @@ const Gallery = () => {
         <div className="gallery-header">
           <h2 className="section-title">Gallery</h2>
           <p className="section-subtitle">
-            Showcase of our finest invisible grill installations
+            Showcase of our finest invisible grill installations across Chennai, Vizag, Bangalore & Hyderabad
           </p>
         </div>
 

@@ -67,7 +67,7 @@ const Services = () => {
         <div className="services-header">
           <h2 className="section-title">Our Services</h2>
           <p className="section-subtitle">
-            Comprehensive solutions for every security need
+            Comprehensive invisible grill solutions in Chennai, Vizag, Bangalore & Hyderabad for every security need
           </p>
         </div>
 
