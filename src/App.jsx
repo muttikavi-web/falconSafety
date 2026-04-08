@@ -8,6 +8,8 @@ import Gallery from './components/Gallery';
 import TrustBadges from './components/TrustBadges';
 import Testimonials from './components/Testimonials';
 import Process from './components/Process';
+import Products from './components/Products';
+import Blog from './components/Blog';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -42,6 +44,12 @@ function App() {
         </section>
         <section id='process'>
           <Process />
+        </section>
+        <section id='products'>
+          <Products />
+        </section>
+        <section id='blog'>
+          <Blog />
         </section>
         <section id='faq'>
           <FAQ />
