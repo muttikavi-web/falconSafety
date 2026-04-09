@@ -12,8 +12,8 @@ export default function BangaloreLanding() {
         "areaServed": ["Bangalore", "Indiranagar", "Koramangala", "Whitefield", "Malleswaram"]
       })}</script>
 
-      <h1>Invisible Grills in Bangalore - Premium Safety Solutions | 1500+ Installations</h1>
-      <p>Best invisible grills with crystal-clear visibility across Bangalore neighborhoods. Professional installation, 15-year warranty, zero hidden charges.</p>
+      <h1>Falcon Invisible Grills in Bangalore | Best Transparent Safety Grills for Windows & Balconies</h1>
+      <p>Best invisible grills with crystal-clear visibility across Bangalore neighborhoods. Premium safety solutions with 1500+ installations, professional installation, 15-year warranty, and zero hidden charges.</p>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', margin: '40px 0' }}>
         <div style={{ background: '#f0f4ff', padding: '20px', borderRadius: '8px' }}>

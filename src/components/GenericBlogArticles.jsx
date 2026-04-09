@@ -290,8 +290,8 @@ export default function GenericBlogArticles() {
   return (
     <div className="generic-blog">
       <section className="generic-hero">
-        <h1>Invisible Grill in Chennai - Expert Guides & Reviews</h1>
-        <p>Comprehensive guides, pricing breakdowns, and brand comparisons. Unbiased information to help you choose the best invisible grills for your home.</p>
+        <h1>Invisible Grills in Chennai | Best Transparent Safety Grill Guides & Pricing</h1>
+        <p>Comprehensive guides on invisible grills in Chennai with pricing breakdowns, cost analysis, brand comparisons, and installation information. Expert unbiased information to help you choose the best transparent safety grills for your home and balcony.</p>
       </section>
 
       <section className="articles-list">

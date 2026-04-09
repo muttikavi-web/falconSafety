@@ -12,8 +12,8 @@ export default function VizagLanding() {
         "areaServed": ["Vizag", "Visakhapatnam", "Dwaraka Nagar", "Westmonton", "Madhurawada"]
       })}</script>
 
-      <h1>Invisible Grills in Vizag (Visakhapatnam) - Coastal Safety Solutions | 1200+ Installations</h1>
-      <p>Premium invisible grills designed for Vizag's coastal climate. Rust-resistant stainless steel, professional installation, 15-year warranty, free consultation.</p>
+      <h1>Invisible Grills in Vizag | Premium Rust-Resistant Coastal Safety Grills</h1>
+      <p>Best transparent safety grills designed for Vizag's coastal climate. Invisible protection for windows and balconies with 316-grade rust-resistant stainless steel, professional installation, 15-year warranty, free consultation.</p>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', margin: '40px 0' }}>
         <div style={{ background: '#f0f4ff', padding: '20px', borderRadius: '8px' }}>
