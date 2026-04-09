@@ -23,6 +23,9 @@ import BangaloreLanding from './components/BangaloreLanding';
 import VizagLanding from './components/VizagLanding';
 import GenericBlogArticles from './components/GenericBlogArticles';
 import SEOBlogArticles from './components/SEOBlogArticles';
+import WindowGrillsLanding from './components/WindowGrillsLanding';
+import BalconyGrillsLanding from './components/BalconyGrillsLanding';
+import ChildSafetyGrillsLanding from './components/ChildSafetyGrillsLanding';
 import './App.css';
 
 // Main Home Page
@@ -165,6 +168,42 @@ function App() {
             <NotificationPopup />
             <WhatsAppChat />
             <SEOBlogArticles />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Window Grills Landing - targets "window grills" keyword */}
+        <Route path="/window-grills-chennai" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <WindowGrillsLanding />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Balcony Grills Landing - targets "balcony grills" keyword */}
+        <Route path="/balcony-grills-chennai" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <BalconyGrillsLanding />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Child Safety Grills Landing - targets "child safety" keyword */}
+        <Route path="/child-safety-grills" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <ChildSafetyGrillsLanding />
             <Contact />
             <Footer />
           </>
