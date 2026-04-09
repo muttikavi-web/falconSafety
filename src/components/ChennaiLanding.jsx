@@ -225,8 +225,8 @@ export default function ChennaiLanding() {
       {/* Hero Section */}
       <section className="chennai-hero">
         <div className="chennai-hero-content">
-          <h1>Best Invisible Grills in Chennai — 2000+ Happy Families</h1>
-          <p>Premium safety grills with crystal-clear visibility. Get installation in your Chennai area within 48 hours. 15-year durability guarantee. ₹0 Installation Charges.</p>
+          <h1>Invisible Grills in Chennai - Premium Safety Solutions | 2000+ Happy Families</h1>
+          <p>Best invisible grills with crystal-clear visibility. Get installation in your Chennai area within 48 hours. 15-year durability guarantee. ₹0 Installation Charges.</p>
           <div className="hero-stats">
             <div className="stat">
               <h3>2,000+</h3>
