@@ -5,6 +5,35 @@ function SafetyGrillsSEO() {
     document.title = 'Transparent Safety Grills | Best Modern Security Solutions | Falcon';
     document.querySelector('meta[name="description"]').setAttribute('content', 'Transparent safety grills for windows, balconies, doors. Modern security solution with 99% visibility. Child-safe, pet-proof. Better than traditional iron bars. Free consultation.');
     document.querySelector('meta[name="keywords"]').setAttribute('content', 'transparent safety grills, safety nets, transparent grills, modern security grills, window safety, balcony protection');
+    
+    // Add BreadcrumbList Schema
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://falconinvisiblegrill.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Transparent Safety Grills",
+          "item": "https://falconinvisiblegrill.com/transparent-safety-grills"
+        }
+      ]
+    };
+    
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(breadcrumbSchema);
+    document.head.appendChild(script);
+    
+    return () => {
+      if (script.parentNode) script.parentNode.removeChild(script);
+    };
   }, []);
   return null;
 }

@@ -2,10 +2,29 @@
 User-agent: *
 Allow: /
 Allow: /assets/
+
+# City Landing Pages
 Allow: /invisible-grills-chennai
+Allow: /Chennai
 Allow: /invisible-grills-bangalore
+Allow: /bangalore
 Allow: /invisible-grills-vizag
+Allow: /vizag
+
+# Generic & SEO Blog Articles
 Allow: /invisible-grill-guides
+Allow: /invisible-grill-information
+
+# High-Intent Keyword Landing Pages (Option A)
+Allow: /invisible-grill-cost
+Allow: /invisible-grill-installation-process
+Allow: /best-invisible-grill
+Allow: /transparent-safety-grills
+
+# Niche Keyword Landing Pages
+Allow: /window-grills-chennai
+Allow: /balcony-grills-chennai
+Allow: /child-safety-grills
 
 # Disallow spam/admin paths
 Disallow: /admin/
@@ -16,12 +35,14 @@ Disallow: /cgi-bin/
 # Sitemap location
 Sitemap: https://falconinvisiblegrill.com/sitemap.xml
 
-# Crawl delay (optional - prevents server overload)
+# Crawl delay (prevents server overload)
 Crawl-delay: 1
 
-# Allow crawling of all search engine bots
+# Allow maximum crawling for Google
 User-agent: Googlebot
 Crawl-delay: 0
+Allow: /
 
 User-agent: Bingbot
 Crawl-delay: 1
+Allow: /

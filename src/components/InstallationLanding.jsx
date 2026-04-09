@@ -5,6 +5,35 @@ function InstallationSEO() {
     document.title = 'Invisible Grill Installation Process | Step-by-Step Guide | Professional Installation';
     document.querySelector('meta[name="description"]').setAttribute('content', 'Invisible grill installation process in Chennai - complete step-by-step guide. Professional installation in 2-5 days. Zero structural damage. Free consultation included.');
     document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grill installation, installation process, how to install invisible grills, professional installation, installation guide');
+    
+    // Add BreadcrumbList Schema
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://falconinvisiblegrill.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Installation Guide",
+          "item": "https://falconinvisiblegrill.com/invisible-grill-installation-process"
+        }
+      ]
+    };
+    
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(breadcrumbSchema);
+    document.head.appendChild(script);
+    
+    return () => {
+      if (script.parentNode) script.parentNode.removeChild(script);
+    };
   }, []);
   return null;
 }

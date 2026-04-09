@@ -5,6 +5,35 @@ function BestGrillsSEO() {
     document.title = 'Best Invisible Grills | Top Quality Brands Comparison | Falcon vs Others';
     document.querySelector('meta[name="description"]').setAttribute('content', 'Best invisible grills in Chennai - compare top brands & quality. Falcon invisible grills with 15-year warranty, 2000+ installations, 4.9/5 rating. Premium vs budget options.');
     document.querySelector('meta[name="keywords"]').setAttribute('content', 'best invisible grills, invisible grill brands, best quality invisible grills, invisible grill comparison, top invisible grill brands');
+    
+    // Add BreadcrumbList Schema
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://falconinvisiblegrill.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Best Invisible Grills",
+          "item": "https://falconinvisiblegrill.com/best-invisible-grill"
+        }
+      ]
+    };
+    
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(breadcrumbSchema);
+    document.head.appendChild(script);
+    
+    return () => {
+      if (script.parentNode) script.parentNode.removeChild(script);
+    };
   }, []);
   return null;
 }
