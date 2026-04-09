@@ -1,5 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ChennaiLanding.css';
+
+// Update page meta tags for SEO
+function ChennaiSEO() {
+  useEffect(() => {
+    document.title = 'Invisible Grills in Chennai | Best Transparent Safety Grills | Installation within 48 Hours';
+    document.querySelector('meta[name="description"]').setAttribute('content', 'Best invisible grills in Chennai with 2000+ installations. Transparent safety grills for windows, balconies. Premium quality, 15-year warranty, free consultation, installation within 48 hours.');
+    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grills in Chennai, transparent grills, safety grills, balcony grills, window grills, child safe grills, invisible grill installation, Chennai');
+    
+    // Open Graph
+    document.querySelector('meta[property="og:title"]').setAttribute('content', 'Invisible Grills in Chennai | Best Safety Solutions');
+    document.querySelector('meta[property="og:description"]').setAttribute('content', 'Premium invisible grills in Chennai. 2000+ installations, 15-year warranty, 48-hour installation.');
+    document.querySelector('meta[property="og:url"]').setAttribute('content', 'https://falconinvisiblegrill.com/invisible-grills-chennai');
+  }, []);
+  return null;
+}
 
 export default function ChennaiLanding() {
   const [expandedArea, setExpandedArea] = useState(null);
@@ -183,6 +198,7 @@ export default function ChennaiLanding() {
 
   return (
     <div className="chennai-landing">
+      <ChennaiSEO />
       {/* Schema Markup */}
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",

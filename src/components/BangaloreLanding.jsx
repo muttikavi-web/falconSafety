@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+// Update page meta tags for SEO
+function BangaloreSEO() {
+  useEffect(() => {
+    document.title = 'Invisible Grills in Bangalore | Best Transparent Safety Grills | 1500+ Installations';
+    document.querySelector('meta[name="description"]').setAttribute('content', 'Best invisible grills in Bangalore with 1500+ installations. Transparent safety solutions for windows and balconies. Premium quality, 15-year warranty, professional installation.');
+    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grills in Bangalore, transparent grills, safety grills, balcony grills, window grills, Bangalore');
+  }, []);
+  return null;
+}
 
 export default function BangaloreLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
+      <BangaloreSEO />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",

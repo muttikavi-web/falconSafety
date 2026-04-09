@@ -1,0 +1,27 @@
+# Falcon Invisible Grills - robots.txt
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /invisible-grills-chennai
+Allow: /invisible-grills-bangalore
+Allow: /invisible-grills-vizag
+Allow: /invisible-grill-guides
+
+# Disallow spam/admin paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://falconinvisiblegrill.com/sitemap.xml
+
+# Crawl delay (optional - prevents server overload)
+Crawl-delay: 1
+
+# Allow crawling of all search engine bots
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 1

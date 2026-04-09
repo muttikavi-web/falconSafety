@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+// Update page meta tags for SEO
+function VizagSEO() {
+  useEffect(() => {
+    document.title = 'Invisible Grills in Vizag | Best Rust-Resistant Coastal Safety Grills | 1200+ Installations';
+    document.querySelector('meta[name="description"]').setAttribute('content', 'Premium invisible grills in Vizag with 1200+ installations. Rust-resistant coastal safety solutions for windows and balconies. 15-year warranty, professional installation.');
+    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grills in Vizag, Visakhapatnam, coastal grills, rust-resistant, transparent safety grills, window grills');
+  }, []);
+  return null;
+}
 
 export default function VizagLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
+      <VizagSEO />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",

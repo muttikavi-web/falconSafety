@@ -22,6 +22,7 @@ import ChennaiLanding from './components/ChennaiLanding';
 import BangaloreLanding from './components/BangaloreLanding';
 import VizagLanding from './components/VizagLanding';
 import GenericBlogArticles from './components/GenericBlogArticles';
+import SEOBlogArticles from './components/SEOBlogArticles';
 import './App.css';
 
 // Main Home Page
@@ -152,6 +153,18 @@ function App() {
             <NotificationPopup />
             <WhatsAppChat />
             <GenericBlogArticles />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* SEO Blog Articles (comprehensive guides - targets generic keywords) */}
+        <Route path="/invisible-grill-information" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <SEOBlogArticles />
             <Contact />
             <Footer />
           </>

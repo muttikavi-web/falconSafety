@@ -162,4 +162,18 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Guides & Information Pages -->
+  <url>
+    <loc>https://falconinvisiblegrill.com/invisible-grill-guides</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://falconinvisiblegrill.com/invisible-grill-information</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
 </urlset>
