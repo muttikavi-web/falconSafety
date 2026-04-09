@@ -11,21 +11,15 @@
   <!-- Chennai Routes -->
   <url>
     <loc>https://falconinvisiblegrill.com/invisible-grills-chennai</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://falconinvisiblegrill.com/chennai-invisible-grill</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://falconinvisiblegrill.com/chennai</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://falconinvisiblegrill.com/invisible-chennai</loc>
-    <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
 
   <!-- Vizag Routes -->
