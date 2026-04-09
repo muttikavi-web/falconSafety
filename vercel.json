@@ -3,11 +3,5 @@
   "devCommand": "npm run dev",
   "outputDirectory": "dist",
   "installCommand": "npm install",
-  "framework": "vite",
-  "env": {
-    "VITE_GOOGLE_ANALYTICS_ID": "@VITE_GOOGLE_ANALYTICS_ID"
-  },
-  "webAnalytics": {
-    "enabled": true
-  }
+  "framework": "vite"
 }
