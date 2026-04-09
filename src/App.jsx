@@ -1,4 +1,6 @@
 ﻿import Header from './components/Header';
+import NotificationPopup from './components/NotificationPopup';
+import WhatsAppChat from './components/WhatsAppChat';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Services from './components/Services';
@@ -21,6 +23,8 @@ function App() {
   return (
     <div className='app'>
       <Header />
+      <NotificationPopup />
+      <WhatsAppChat />
       <main>
         <section id='home'>
           <Hero />
