@@ -195,6 +195,58 @@
       ]
     }
     </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        'page_path': window.location.pathname,
+        'page_title': document.title
+      });
+    </script>
+
+    <!-- Vercel Web Analytics -->
+    <script defer src="https://cdn.vercel-analytics.com/v1/web.js"></script>
+
+    <!-- Page Visit Tracking (WhatsApp Notification) -->
+    <script>
+      // Track visitor data and send to backend
+      async function trackVisitor() {
+        try {
+          const visitorData = {
+            timestamp: new Date().toISOString(),
+            url: window.location.href,
+            userAgent: navigator.userAgent,
+            language: navigator.language,
+            screen: {
+              width: window.screen.width,
+              height: window.screen.height
+            },
+            timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            referrer: document.referrer || 'direct'
+          };
+
+          // Send to your backend API endpoint
+          await fetch('/api/track-visitor', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(visitorData)
+          }).catch(err => console.log('Tracking:', err));
+        } catch (err) {
+          console.log('Visitor tracking error:', err);
+        }
+      }
+
+      // Track on page load
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', trackVisitor);
+      } else {
+        trackVisitor();
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
