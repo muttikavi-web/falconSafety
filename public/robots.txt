@@ -5,11 +5,13 @@ Allow: /assets/
 
 # City Landing Pages
 Allow: /invisible-grills-chennai
-Allow: /Chennai
+Allow: /chennai
 Allow: /invisible-grills-bangalore
 Allow: /bangalore
 Allow: /invisible-grills-vizag
 Allow: /vizag
+Allow: /invisible-grills-hyderabad
+Allow: /hyderabad
 
 # Generic & SEO Blog Articles
 Allow: /invisible-grill-guides

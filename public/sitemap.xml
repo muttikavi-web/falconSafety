@@ -25,67 +25,49 @@
   <!-- Vizag Routes -->
   <url>
     <loc>https://falconinvisiblegrill.com/invisible-grills-vizag</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://falconinvisiblegrill.com/vizag-invisible-grill</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://falconinvisiblegrill.com/vizag</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://falconinvisiblegrill.com/invisible-vizag</loc>
-    <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.95</priority>
   </url>
 
   <!-- Bangalore Routes -->
   <url>
     <loc>https://falconinvisiblegrill.com/invisible-grills-bangalore</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://falconinvisiblegrill.com/bangalore-invisible-grill</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://falconinvisiblegrill.com/bangalore</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://falconinvisiblegrill.com/invisible-bangalore</loc>
-    <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.95</priority>
   </url>
 
   <!-- Hyderabad Routes -->
   <url>
     <loc>https://falconinvisiblegrill.com/invisible-grills-hyderabad</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://falconinvisiblegrill.com/hyderabad-invisible-grill</loc>
-    <lastmod>2026-04-08</lastmod>
+    <loc>https://falconinvisiblegrill.com/hyderabad</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://falconinvisiblegrill.com/invisible-hyderabad</loc>
-    <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.95</priority>
   </url>
 
   <!-- Contact Page -->
   <url>
     <loc>https://falconinvisiblegrill.com/#contact</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

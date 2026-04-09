@@ -153,6 +153,26 @@ function App() {
           </>
         } />
 
+        {/* Hyderabad Routes - Using VizagLanding component (same content, different route for diversity) */}
+        <Route path="/invisible-grills-hyderabad" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <VizagLanding />
+            <Footer />
+          </>
+        } />
+        <Route path="/hyderabad" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <VizagLanding />
+            <Footer />
+          </>
+        } />
+
         {/* Generic Blog Articles (targets "invisible grill in [city]") */}
         <Route path="/invisible-grill-guides" element={
           <>
