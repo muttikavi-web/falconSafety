@@ -152,4 +152,20 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- Industry Solutions Page -->
+  <url>
+    <loc>https://falconinvisiblegrill.com/#industries</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Certifications & Awards Page -->
+  <url>
+    <loc>https://falconinvisiblegrill.com/#certifications</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>

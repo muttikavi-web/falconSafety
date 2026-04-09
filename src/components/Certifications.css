@@ -1,0 +1,371 @@
+/* Certifications Section Styles */
+.certifications {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a 0%, #1a1f3a 100%);
+  color: #fff;
+}
+
+.certifications-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certifications-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.certifications-header .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #d4af37;
+}
+
+.certifications-header .section-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Trust Stats */
+.trust-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.stat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: #d4af37;
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Certifications Grid */
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.certification-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  padding: 35px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.certification-card:hover {
+  background: rgba(212, 175, 55, 0.05);
+  border-color: #d4af37;
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+}
+
+.cert-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.cert-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.cert-description {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.cert-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-details li {
+  padding: 8px 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.cert-details li:last-child {
+  border-bottom: none;
+}
+
+/* Awards Section */
+.awards-section {
+  margin-bottom: 70px;
+  background: rgba(212, 175, 55, 0.05);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.awards-title {
+  font-size: 2rem;
+  color: #d4af37;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.award-card {
+  background: rgba(15, 23, 42, 0.5);
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #d4af37;
+  transition: all 0.3s ease;
+}
+
+.award-card:hover {
+  background: rgba(15, 23, 42, 0.8);
+  transform: translateX(5px);
+}
+
+.award-year {
+  font-size: 1rem;
+  color: #d4af37;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.award-name {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.award-issuer {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  color: #d4af37;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+  padding-left: 0;
+}
+
+.feature-list li:before {
+  content: "✓ ";
+  color: #d4af37;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+/* Why Falcon Section */
+.why-falcon {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+  padding: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.why-falcon h3 {
+  font-size: 2rem;
+  color: #d4af37;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.reason-item {
+  text-align: center;
+}
+
+.reason-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.reason-item h4 {
+  font-size: 1.2rem;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.reason-item p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* CTA Section */
+.cert-cta {
+  background: linear-gradient(135deg, #d4af37 0%, #f4d357 100%);
+  color: #0f172a;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cert-cta h3 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.cta-button {
+  background: #0f172a;
+  color: #d4af37;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #1a1f3a;
+  transform: scale(1.05);
+}
+
+.cta-button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .certifications {
+    padding: 60px 15px;
+  }
+
+  .certifications-header .section-title {
+    font-size: 2rem;
+  }
+
+  .trust-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .certifications-grid,
+  .awards-grid,
+  .reasons-grid,
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .awards-section,
+  .why-falcon,
+  .cert-cta {
+    padding: 30px;
+  }
+
+  .cert-cta h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .certifications-header .section-title {
+    font-size: 1.6rem;
+  }
+
+  .trust-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .certification-card,
+  .feature-box,
+  .award-card {
+    padding: 20px;
+  }
+
+  .cert-cta {
+    padding: 25px;
+  }
+
+  .cert-cta h3 {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    padding: 12px 25px;
+    font-size: 0.9rem;
+  }
+}

@@ -9,7 +9,9 @@ import TrustBadges from './components/TrustBadges';
 import Testimonials from './components/Testimonials';
 import Process from './components/Process';
 import Products from './components/Products';
+import IndustrySolutions from './components/IndustrySolutions';
 import Blog from './components/Blog';
+import Certifications from './components/Certifications';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -48,8 +50,14 @@ function App() {
         <section id='products'>
           <Products />
         </section>
+        <section id='industries'>
+          <IndustrySolutions />
+        </section>
         <section id='blog'>
           <Blog />
+        </section>
+        <section id='certifications'>
+          <Certifications />
         </section>
         <section id='faq'>
           <FAQ />
