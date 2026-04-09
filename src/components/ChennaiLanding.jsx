@@ -228,8 +228,8 @@ export default function ChennaiLanding() {
           "Chennai"
         ],
         "sameAs": [
-          "https://www.facebook.com/falconinvisiblegrills",
-          "https://www.instagram.com/falconinvisiblegrills"
+          "https://www.facebook.com/falconvisiblegrill",
+          "https://www.instagram.com/falconvisiblegrill"
         ],
         "review": {
           "@type": "Review",

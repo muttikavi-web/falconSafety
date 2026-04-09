@@ -46,7 +46,7 @@ const Footer = () => {
             <h4>Contact Info</h4>
             <p className="footer-contact">
               <span>📞 +91 9000 888 367</span>
-              <span>📧 info@falconinvisiblegrills.com</span>
+              <span>📧 info@falconvisiblegrill.com</span>
               <span>📍 Tech City, TC 123456</span>
             </p>
           </div>
