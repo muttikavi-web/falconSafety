@@ -196,4 +196,30 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- High-Intent Keyword Landing Pages (Option A Strategy) -->
+  <url>
+    <loc>https://falconinvisiblegrill.com/invisible-grill-cost</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://falconinvisiblegrill.com/invisible-grill-installation-process</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://falconinvisiblegrill.com/best-invisible-grill</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://falconinvisiblegrill.com/transparent-safety-grills</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
 </urlset>

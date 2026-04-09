@@ -26,6 +26,10 @@ import SEOBlogArticles from './components/SEOBlogArticles';
 import WindowGrillsLanding from './components/WindowGrillsLanding';
 import BalconyGrillsLanding from './components/BalconyGrillsLanding';
 import ChildSafetyGrillsLanding from './components/ChildSafetyGrillsLanding';
+import CostLanding from './components/CostLanding';
+import InstallationLanding from './components/InstallationLanding';
+import BestGrillsLanding from './components/BestGrillsLanding';
+import TransparentGrillsLanding from './components/TransparentGrillsLanding';
 import './App.css';
 
 // Main Home Page
@@ -204,6 +208,54 @@ function App() {
             <NotificationPopup />
             <WhatsAppChat />
             <ChildSafetyGrillsLanding />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Cost Landing - targets "invisible grill cost", "price" keyword */}
+        <Route path="/invisible-grill-cost" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <CostLanding />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Installation Landing - targets "invisible grill installation" keyword */}
+        <Route path="/invisible-grill-installation-process" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <InstallationLanding />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Best Grills Landing - targets "best invisible grill" & "best quality" keywords */}
+        <Route path="/best-invisible-grill" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <BestGrillsLanding />
+            <Contact />
+            <Footer />
+          </>
+        } />
+
+        {/* Transparent Safety Grills Landing - targets "transparent grills", "safety grills" keywords */}
+        <Route path="/transparent-safety-grills" element={
+          <>
+            <Header />
+            <NotificationPopup />
+            <WhatsAppChat />
+            <TransparentGrillsLanding />
             <Contact />
             <Footer />
           </>
