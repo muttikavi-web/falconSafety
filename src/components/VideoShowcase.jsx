@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './VideoShowcase.css';
+import video1 from '../assets/videos/video1.mp4';
+import video2 from '../assets/videos/video2.mp4';
+import video3 from '../assets/videos/video3.mp4';
+import video4 from '../assets/videos/video4.mp4';
 
 const VideoShowcase = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -10,15 +14,15 @@ const VideoShowcase = () => {
       title: 'Invisible Grill Installation View',
       description: 'Watch how invisible grills maintain crystal-clear views',
       thumbnail: '🎬',
-      videoUrl: '/videos/grill-view.mp4',
-      duration: '0:45'
+      videoUrl: video1,
+      duration: '1:30'
     },
     {
       id: 2,
       title: 'Professional Installation Process',
       description: 'Step-by-step professional installation of invisible grills in 48 hours',
       thumbnail: '🔧',
-      videoUrl: '/videos/installation.mp4',
+      videoUrl: video2,
       duration: '1:30'
     },
     {
@@ -26,32 +30,32 @@ const VideoShowcase = () => {
       title: 'Strength & Durability Test',
       description: '400kg weight capacity - tested for ultimate strength and safety',
       thumbnail: '💪',
-      videoUrl: '/videos/strength.mp4',
-      duration: '0:50'
+      videoUrl: video3,
+      duration: '1:30'
     },
     {
       id: 4,
       title: 'Invisible Grills Structure',
       description: 'Detailed look at transparent nylon coating and cable structure',
       thumbnail: '🔍',
-      videoUrl: '/videos/structure.mp4',
-      duration: '1:00'
+      videoUrl: video4,
+      duration: '1:30'
     },
     {
       id: 5,
       title: 'Balcony Invisible Grills Demo',
       description: 'Balcony installation showcasing unobstructed views and safety',
       thumbnail: '🏢',
-      videoUrl: '/videos/balcony.mp4',
-      duration: '1:15'
+      videoUrl: video1,
+      duration: '1:30'
     },
     {
       id: 6,
       title: 'Window Grills Installation',
       description: 'How invisible window grills fit seamlessly on any window type',
       thumbnail: '🪟',
-      videoUrl: '/videos/window.mp4',
-      duration: '0:55'
+      videoUrl: video2,
+      duration: '1:30'
     }
   ];
 
