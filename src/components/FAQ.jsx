@@ -7,57 +7,57 @@ const FAQ = () => {
   const faqs = [
     {
       id: 1,
-      question: 'What are invisible grills?',
-      answer: 'Invisible grills are high-strength stainless steel or nylon wires installed on windows and balconies that provide security without obstructing the view. They are transparent, virtually invisible, and maintain the aesthetic appeal of your space while protecting your family from falls and intrusions.'
+      question: 'What is the price of invisible grills?',
+      answer: 'Invisible grill price starts from ₹400-800 per square foot depending on material and quality. Window invisible grills cost ₹400-700/sqft, balcony invisible grills cost ₹400-800/sqft. Get a free invisible grill price quote - we\'ll visit your site and give exact pricing based on your requirements.'
     },
     {
       id: 2,
-      question: 'How long does installation take?',
-      answer: 'Typical installation takes 2-3 hours per location (balcony or windows). Our expert team works efficiently to minimize disruption. The entire process including preparation, installation, testing, and cleanup is usually completed within a single day for most homes.'
+      question: 'How much does invisible window grills cost?',
+      answer: 'Invisible window grills typically cost between ₹400-700 per sq.ft for standard installations. A small window (10 sqft) costs ₹4,000-7,000, medium windows (15-20 sqft) cost ₹6,000-14,000. We provide the best invisible grill price with free consultation and on-site measurement.'
     },
     {
       id: 3,
-      question: 'What is the warranty period?',
-      answer: 'We provide a comprehensive 1-year free service warranty on all installations and a 25-year product warranty on the invisible grills themselves. This covers manufacturing defects, cable issues, and installation concerns. Extended warranties are available upon request.'
+      question: 'What is the cost of balcony invisible grills?',
+      answer: 'Balcony invisible grills cost ₹400-800 per sq.ft depending on size and material. A typical 1 BHK balcony (30-50 sqft) costs ₹12,000-40,000. We offer the best price for balcony invisible grills in Chennai, Bangalore, and Vizag with professional installation.'
     },
     {
       id: 4,
       question: 'Are invisible grills safe for children and pets?',
-      answer: 'Yes! Our grills are specifically designed with child and pet safety in mind. The strong stainless steel cables are tested to prevent falls, the spacing prevents entanglement, and there are no sharp edges. They meet international safety standards and are trusted by thousands of families.'
+      answer: 'Yes! Our child-safe invisible grills are specifically designed to prevent falls. Our pet-safe invisible grills are durable and escape-proof. Both are certified to international safety standards and trusted by thousands of families. Transparent design maintains visibility while providing complete safety.'
     },
     {
       id: 5,
-      question: 'Can invisible grills be installed on all window types?',
-      answer: 'Invisible grills can be installed on virtually all window types including sliding windows, casement windows, fixed windows, awning windows, and more. We also handle curved windows, corner installations, and special shapes. We provide a free consultation to assess your specific requirements.'
+      question: 'Can invisible window grills be installed on all windows?',
+      answer: 'Our invisible window grills can be installed on virtually all window types - sliding, casement, fixed, awning windows, and more. We handle curved, corner windows, and special shapes too. Free consultation to assess your specific window requirements.'
     },
     {
       id: 6,
-      question: 'How much maintenance is required?',
-      answer: 'Minimal maintenance is needed! Simply clean with mild soap and water once every 3-6 months. No repainting, rust treatment, or special care required. The high-quality stainless steel resists corrosion naturally. We provide free maintenance service for the first year.'
+      question: 'How much maintenance for invisible grills?',
+      answer: 'Minimal maintenance needed! Invisible grills just need occasional cleaning with mild soap and water every 3-6 months. No rust treatment, no repainting required. We provide free maintenance for the first year.' 
     },
     {
       id: 7,
-      question: 'What is the cost range?',
-      answer: 'Pricing depends on window/balcony size, material choice (304 or 316 stainless steel), and quantity. Basic window grills start at ₹5,000, balcony grills from ₹8,000. We offer competitive rates with flexible payment options and EMI facilities. Contact us for a free quote tailored to your needs.'
+      question: 'What is best invisible grill material?',
+      answer: 'Best invisible grills are made from 304 or 316 stainless steel for maximum durability. 316-grade is superior for coastal areas. Both are corrosion-resistant and last 25+ years. We offer premium nylon options too. Choose based on your location and budget.'
     },
     {
       id: 8,
-      question: 'Do you offer customization options?',
-      answer: 'Absolutely! We offer various materials (304/316 stainless steel, premium nylon), cable colors (stainless steel, black, bronze), spacing options for children or pets, and custom designs. Our team can customize solutions to match your home\'s aesthetic while meeting your specific security needs.'
+      question: 'Do you offer custom invisible grill designs?',
+      answer: 'Absolutely! We customize invisible grills with different materials (304/316 stainless), cable colors, spacing options for children/pets, and unique designs. Our team creates custom solutions matching your home\'s style while meeting your security needs.'
     },
     {
       id: 9,
       question: 'Can invisible grills withstand extreme weather?',
-      answer: 'Yes! Our grills are engineered to withstand harsh weather conditions including heavy rains, strong winds, and coastal salt spray. Premium 316-grade stainless steel provides superior corrosion resistance. They maintain their integrity for 25+ years even in challenging environments like Chennai and coastal Vizag.'
+      answer: 'Yes! Our invisible grills withstand heavy rains, strong winds, and coastal salt spray. Premium 316-grade stainless steel provides superior corrosion resistance. Invisible grills maintain integrity for 25+ years even in challenging environments like Chennai and Vizag.'
     },
     {
       id: 10,
-      question: 'How do invisible grills prevent home burglaries?',
-      answer: 'The high-tensile stainless steel cables are extremely strong and cannot be easily cut or broken. The secure installation on window frames and balconies prevents prying. Burglars cannot gain entry without causing significant noise and damage. Many insurance companies offer discounts for homes with invisible grills.'
+      question: 'Do invisible grills prevent burglaries?',
+      answer: 'Yes! High-tensile stainless steel cables in invisible grills cannot be easily cut. Secure installation prevents prying and entry. Burglars face significant noise and damage attempting to bypass invisible grills. Insurance companies often offer discounts.'
     },
     {
       id: 11,
-      question: 'Are invisible grills better than traditional metal grills?',
+      question: 'Are transparent invisible grills better than metal grills?',
       answer: 'Yes! Invisible grills offer major advantages: they maintain unobstructed views (traditional grills block views), require zero maintenance (traditional need regular painting), last 25+ years (traditional grills 8-10 years), are weather-resistant (traditional rust easily), and look modern (traditional look old-fashioned). Though initial cost is higher, long-term value is superior.'
     },
     {
@@ -115,9 +115,9 @@ const FAQ = () => {
     <section className="faq">
       <div className="faq-container">
         <div className="faq-header">
-          <h2 className="section-title">Frequently Asked Questions</h2>
+          <h2 className="section-title">Invisible Grills Price & FAQ - Buy at Best Price</h2>
           <p className="section-subtitle">
-            Find answers to common questions about our invisible grills
+            Find answers about invisible grills cost, invisible window grills price, balcony invisible grills pricing, and more
           </p>
         </div>
 

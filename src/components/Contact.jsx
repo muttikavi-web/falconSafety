@@ -75,9 +75,9 @@ const Contact = () => {
     <section className="contact">
       <div className="contact-container">
         <div className="contact-header">
-          <h2 className="section-title">Get In Touch</h2>
+          <h2 className="section-title">Get Free Invisible Grill Price Quote</h2>
           <p className="section-subtitle">
-            Have questions? We're here to help. Contact us for a free consultation.
+            Get free invisible grills price quote. Buy invisible window grills & balcony invisible grills at best price. Professional consultation & 48-hour installation.
           </p>
         </div>
 

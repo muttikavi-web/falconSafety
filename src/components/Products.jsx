@@ -9,10 +9,10 @@ const Products = () => {
       id: 1,
       name: 'Balcony Invisible Grills',
       icon: '🏢',
-      price: '₹8,000 - ₹25,000',
-      description: 'Premium protection for balconies with unobstructed views',
+      price: '₹400-800/sqft (Approx. ₹8,000-25,000)',
+      description: 'Premium balcony invisible grills - best price, crystal-clear views, perfect safety',
       features: [
-        'Crystal-clear views without obstruction',
+        'Crystal-clear unobstructed views',
         'High-tensile stainless steel cables',
         'UV resistant and weather-proof',
         'Prevents accidental falls',
@@ -22,7 +22,7 @@ const Products = () => {
         'Customizable for any balcony size'
       ],
       benefits: [
-        'Enjoy panoramic city views safely',
+        'Enjoy panoramic views safely',
         'Perfect for high-rise apartments',
         'Modern aesthetic appeal',
         'Safe for children and pets',
@@ -33,10 +33,10 @@ const Products = () => {
     },
     {
       id: 2,
-      name: 'Window Invisible Grills',
+      name: 'Invisible Window Grills',
       icon: '🪟',
-      price: '₹5,000 - ₹15,000',
-      description: 'Safety grills for windows maintaining natural light and view',
+      price: '₹400-700/sqft (Approx. ₹5,000-15,000)',
+      description: 'Invisible window grills - best price, transparent security, natural light maintained',
       features: [
         'Maintains natural light and ventilation',
         'Prevents burglary and break-ins',
@@ -167,9 +167,9 @@ const Products = () => {
     <section className="products">
       <div className="products-container">
         <div className="products-header">
-          <h2 className="section-title">Our Products & Services</h2>
+          <h2 className="section-title">Invisible Grills Price & Products - Buy Now at Best Price</h2>
           <p className="section-subtitle">
-            Comprehensive invisible grill solutions for every need across Chennai, Hyderabad, Vizag, and Bangalore
+            Buy Invisible Window Grills from ₹400/sqft, Balcony Invisible Grills at best price. Premium transparent grills with professional installation in Chennai, Bangalore, Vizag, Hyderabad.
           </p>
         </div>
 
