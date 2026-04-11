@@ -1,17 +1,17 @@
-import React, { useEffect } from 'react';
-
-function WindowGrillsSEO() {
-  useEffect(() => {
-    document.title = 'Window Grills in Chennai | Best Transparent Safety Solutions | Invisible Shields';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Premium window grills in Chennai. Transparent safety solutions for windows with 2000+ installations. 15-year warranty, professional installation within 48 hours.');
-  }, []);
-  return null;
-}
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function WindowGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
-      <WindowGrillsSEO />
+      <Helmet>
+        <title>Invisible Window Grills in Chennai | 24 Years Best Quality | ₹400-700/sqft</title>
+        <meta name="description" content="Falcon Invisible Window Grills in Chennai - 24 years, 2000+ installations. Premium transparent safety grills for windows. ₹400-700/sqft. 48-hour professional installation, lifetime warranty." />
+        <meta name="keywords" content="invisible window grills, window grills chennai, transparent window grills, safety grills for windows, window protection, invisible grills price" />
+        <meta property="og:title" content="Invisible Window Grills - 24 Years Best Quality | Chennai" />
+        <meta property="og:description" content="Premium invisible window grills with crystal-clear views. 2000+ Chennai homes protected. ₹400-700/sqft, lifetime warranty." />
+        <canonical href="https://falconinvisiblegrill.com/window-grills-chennai" />
+      </Helmet>
       
       <h1>Window Grills in Chennai | Best Transparent Safety Shields for Windows</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Protect your windows with crystal-clear invisible safety grills. 2000+ Chennai homes trust us for transparent window protection. Professional installation, 15-year warranty.</p>

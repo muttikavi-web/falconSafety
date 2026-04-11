@@ -1,4 +1,5 @@
 ﻿import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import Header from './components/Header';
 import NotificationPopup from './components/NotificationPopup';
 import WhatsAppChat from './components/WhatsAppChat';
@@ -40,6 +41,14 @@ import './App.css';
 function HomePage() {
   return (
     <div className='app'>
+      <Helmet>
+        <title>Invisible Grills Chennai | 24 Years Best Invisible Window Grills | Falcon Grills</title>
+        <meta name="description" content="Falcon Invisible Grills - 24 years experience & best invisible grills in Chennai. Premium Invisible Window Grills & Balcony Invisible Grills from ₹400-800/sqft. 4500+ happy customers, 4.9/5 rating, 48-hour installation, lifetime support." />
+        <meta name="keywords" content="invisible grills, invisible grills price, invisible grills chennai, invisible window grills, balcony invisible grills, invisible grill cost, invisible grills installation, best invisible grills" />
+        <meta property="og:title" content="Invisible Grills - 24 Years Best Quality | Falcon Invisible Grills" />
+        <meta property="og:description" content="Falcon Invisible Grills - 24 Years of Excellence! Best Invisible Grills in Chennai. Premium Invisible Window & Balcony Grills. ₹400-800/sqft. 4500+ homes protected. Lifetime warranty & support!" />
+        <canonical href="https://falconinvisiblegrill.com/" />
+      </Helmet>
       <Header />
       <NotificationPopup />
       <WhatsAppChat />

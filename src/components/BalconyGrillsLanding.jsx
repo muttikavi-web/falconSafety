@@ -1,17 +1,17 @@
-import React, { useEffect } from 'react';
-
-function BalconyGrillsSEO() {
-  useEffect(() => {
-    document.title = 'Balcony Grills in Chennai | Best Safety Solutions for Balconies | 2000+ Installations';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Premium balcony grills in Chennai. Transparent safety solutions for balconies with ocean/city views. Child-safe, pest-proof. 2000+ installations, 15-year warranty.');
-  }, []);
-  return null;
-}
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function BalconyGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
-      <BalconyGrillsSEO />
+      <Helmet>
+        <title>Invisible Balcony Grills in Chennai | 24 Years Best Quality | ₹400-800/sqft</title>
+        <meta name="description" content="Falcon Invisible Balcony Grills in Chennai - 24 years, 2000+ installations. Premium transparent grills for balconies. Unobstructed views, 400kg+ weight capacity. ₹400-800/sqft. Lifetime warranty." />
+        <meta name="keywords" content="balcony invisible grills, balcony grills chennai, transparent balcony grills, safety grills for balcony, invisible grill price, balcony protection" />
+        <meta property="og:title" content="Invisible Balcony Grills - 24 Years Best Quality | Falcon" />
+        <meta property="og:description" content="Premium invisible balcony grills with crystal-clear views. Enjoy unobstructed balcony views safely. 400kg capacity, lifetime warranty." />
+        <canonical href="https://falconinvisiblegrill.com/balcony-grills-chennai" />
+      </Helmet>
       
       <h1>Balcony Grills in Chennai | Best Transparent Safety Solutions for Balconies</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Protect your balcony while maintaining stunning views. Invisible safety grills for Chennai balconies. Child-safe, pet-proof, ocean-view approved. 2000+ happy customers.</p>

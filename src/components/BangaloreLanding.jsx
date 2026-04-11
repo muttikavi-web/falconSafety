@@ -1,19 +1,18 @@
-import React, { useEffect } from 'react';
-
-// Update page meta tags for SEO
-function BangaloreSEO() {
-  useEffect(() => {
-    document.title = 'Invisible Grills in Bangalore | Best Transparent Safety Grills | 1500+ Installations';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Best invisible grills in Bangalore with 1500+ installations. Transparent safety solutions for windows and balconies. Premium quality, 15-year warranty, professional installation.');
-    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grills in Bangalore, transparent grills, safety grills, balcony grills, window grills, Bangalore');
-  }, []);
-  return null;
-}
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function BangaloreLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
-      <BangaloreSEO />
+      <Helmet>
+        <title>Invisible Grills in Bangalore | 24 Years Best Quality | ₹400-800/sqft</title>
+        <meta name="description" content="Falcon Invisible Grills Bangalore - 24 years, 1500+ installations. Best invisible grills for Indiranagar, Koramangala, Whitefield, MG Road. ₹400-800/sqft. 48-hour installation, lifetime warranty." />
+        <meta name="keywords" content="invisible grills bangalore, invisible window grills, balcony grills, koramangala, indiranagar, whitefield, bangalore grills price" />
+        <meta property="og:title" content="Invisible Grills in Bangalore - 24 Years Best Quality | Falcon" />
+        <meta property="og:description" content="Best invisible grills in Bangalore with 1500+ installations. Transparent safety solutions for windows & balconies. 48-hour professional installation." />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
+        <canonical href="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
+      </Helmet>
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",

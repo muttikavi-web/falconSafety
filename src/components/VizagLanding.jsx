@@ -1,19 +1,18 @@
-import React, { useEffect } from 'react';
-
-// Update page meta tags for SEO
-function VizagSEO() {
-  useEffect(() => {
-    document.title = 'Invisible Grills in Vizag | Best Rust-Resistant Coastal Safety Grills | 1200+ Installations';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Premium invisible grills in Vizag with 1200+ installations. Rust-resistant coastal safety solutions for windows and balconies. 15-year warranty, professional installation.');
-    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grills in Vizag, Visakhapatnam, coastal grills, rust-resistant, transparent safety grills, window grills');
-  }, []);
-  return null;
-}
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function VizagLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
-      <VizagSEO />
+      <Helmet>
+        <title>Invisible Grills in Vizag | 24 Years Best Quality | Visakhapatnam Safety Grills</title>
+        <meta name="description" content="Falcon Invisible Grills Vizag - 24 years, 1200+ installations. Best invisible grills for Visakhapatnam. Transparent safety solutions for windows & balconies. ₹400-800/sqft. Coastal-resistant, lifetime warranty." />
+        <meta name="keywords" content="invisible grills vizag, invisible grills visakhapatnam, transparent safety grills, balcony grills, window grills, coastal resistant grills" />
+        <meta property="og:title" content="Invisible Grills in Vizag - 24 Years Best Quality | Falcon" />
+        <meta property="og:description" content="Best invisible grills in Visakhapatnam with 1200+ installations. Coastal-resistant, premium quality, lifetime warranty." />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-vizag" />
+        <canonical href="https://falconinvisiblegrill.com/invisible-grills-vizag" />
+      </Helmet>
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",

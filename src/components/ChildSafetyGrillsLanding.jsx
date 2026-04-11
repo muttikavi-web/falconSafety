@@ -1,17 +1,17 @@
-import React, { useEffect } from 'react';
-
-function ChildSafetyGrillsSEO() {
-  useEffect(() => {
-    document.title = 'Child Safety Grills | Best Window & Balcony Protection for Kids | Falcon Grills Chennai';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Child-safe invisible grills in Chennai. Transparent safety nets for windows and balconies. Prevent baby/toddler falls. 2000+ families trust us. Professional installation, 15-year warranty.');
-  }, []);
-  return null;
-}
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function ChildSafetyGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
-      <ChildSafetyGrillsSEO />
+      <Helmet>
+        <title>Child Safety Invisible Grills | 24 Years Best Quality | Prevent Falls</title>
+        <meta name="description" content="Falcon Child Safety Invisible Grills - 24 years, certified safety. Prevent child/toddler falls from windows & balconies. Transparent design, ₹450-800/sqft. 2000+ families trust us. Lifetime warranty." />
+        <meta name="keywords" content="child safety grills, baby safety grills, prevent window falls, balcony safety, toddler protection, child safe invisible grills, window safety" />
+        <meta property="og:title" content="Child Safety Invisible Grills - Prevent Falls | Falcon" />
+        <meta property="og:description" content="Certified child-safe invisible grills. Protect kids from falls while maintaining views. 2000+ families trust Falcon." />
+        <canonical href="https://falconinvisiblegrill.com/child-safety-grills" />
+      </Helmet>
       
       <h1>Child Safety Grills | Best Protection from Falls & Accidents for Kids & Toddlers</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Invisible safety grills protect children from balcony and window falls. Tested for 200+ kg force. 2000+ families in Chennai trust Falcon for child safety. Professional installation, 15-year warranty.</p>
