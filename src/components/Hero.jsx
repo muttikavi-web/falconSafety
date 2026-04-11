@@ -47,9 +47,9 @@ export default function Hero() {
 
       <div className="hero-container">
         <div className="hero-content">
-          <span className="hero-badge">🚀 Premium Safety Solution in South India</span>
-          <h1>Falcon Invisible Grills | Best Transparent Safety Solutions<br />in Chennai, Vizag, Bangalore & Beyond</h1>
-          <p>Experience ultimate safety without compromising on views. Leading provider of invisible grills for windows and balconies across Chennai, Vizag, Bangalore, and Hyderabad. Our advanced transparent netting technology protects your family while maintaining crystal-clear visibility. Premium safety grills with 15-year warranty.</p>
+          <span className="hero-badge">🚀 #1 Premium Invisible Grill Solution in South India</span>
+          <h1>Falcon Invisible Grills | Best Transparent Safety Solutions<br />in Chennai, Bangalore, Vizag & Hyderabad</h1>
+          <p>Experience ultimate safety without compromising on views. Leading provider of premium invisible grills for windows, balconies, and child safety across India. Our advanced transparent netting technology protects your family while maintaining crystal-clear visibility. Best-rated balcony grills and window grills with 15-year warranty, 48-hour professional installation, and free consultation. Serving 4500+ happy customers with 4.9/5 ratings.</p>
           
           <div className="hero-cta">
             <button className="btn-primary">
@@ -60,16 +60,16 @@ export default function Hero() {
 
           <div className="hero-stats">
             <div className="stat">
-              <h3>500+</h3>
+              <h3>4500+</h3>
               <p>Installations</p>
             </div>
             <div className="stat">
-              <h3>99.9%</h3>
-              <p>Customer Satisfaction</p>
+              <h3>4.9/5</h3>
+              <p>Customer Rating</p>
             </div>
             <div className="stat">
-              <h3>25+</h3>
-              <p>Years Warranty</p>
+              <h3>15-Yr</h3>
+              <p>Warranty</p>
             </div>
           </div>
         </div>

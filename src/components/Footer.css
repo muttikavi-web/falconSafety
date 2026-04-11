@@ -224,6 +224,25 @@
   color: rgba(212, 175, 55, 0.3);
 }
 
+/* Footer Features */
+.footer-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.footer-features span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #d4af37;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; }

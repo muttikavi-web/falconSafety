@@ -57,7 +57,22 @@ export default function Header() {
             <li><a href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }}>Services</a></li>
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
             <li><a href="#gallery" onClick={(e) => { e.preventDefault(); scrollToSection('gallery'); }}>Gallery</a></li>
-            <li><Link to="/invisible-grills-chennai" onClick={() => setMenuOpen(false)}>Chennai</Link></li>
+            <li className="dropdown">
+              <a href="#cities" onClick={(e) => { e.preventDefault(); }}>Cities ▼</a>
+              <ul className="dropdown-menu">
+                <li><Link to="/invisible-grills-chennai" title="Best invisible grills in Chennai">Chennai Grills</Link></li>
+                <li><Link to="/invisible-grills-bangalore" title="Premium invisible grills Bangalore">Bangalore Grills</Link></li>
+                <li><Link to="/invisible-grills-vizag" title="Transparent grills Vizag">Vizag Grills</Link></li>
+              </ul>
+            </li>
+            <li className="dropdown">
+              <a href="#products" onClick={(e) => { e.preventDefault(); }}>Products ▼</a>
+              <ul className="dropdown-menu">
+                <li><Link to="/balcony-grills-chennai" title="Balcony safety grills">Balcony Grills</Link></li>
+                <li><Link to="/window-grills-chennai" title="Window security grills">Window Grills</Link></li>
+                <li><Link to="/child-safety-grills" title="Child safe protective grills">Child Safety</Link></li>
+              </ul>
+            </li>
             <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>
           </ul>
         </nav>

@@ -13,37 +13,37 @@ const About = () => {
         </div>
 
         <div className="about-content">
-          <h2 className="about-title">About Falcon Invisible Grills</h2>
+          <h2 className="about-title">About Falcon Invisible Grills - Premium Safety Solutions</h2>
           
           <p className="about-description">
-            At Falcon, we redefine security with invisible elegance. For over 15 years, we've been 
-            crafting premium invisible grills that protect what matters most in Chennai, Vizag, Bangalore, 
-            and Hyderabad without compromising the beauty of your space. Trusted by thousands of families 
-            across South India.
+            At Falcon Invisible Grills, we redefine security with invisible elegance. For over 15 years, we've been 
+            the leading manufacturer and installer of premium invisible grills and transparent safety solutions in Chennai, Bangalore, Vizag, 
+            and Hyderabad. We protect what matters most—your family and home—without compromising the beauty of your space. 
+            Trusted by 4500+ families and businesses across South India with our best-rated balcony grills, window grills, and child safety grills.
           </p>
 
           <div className="about-highlights">
             <div className="highlight">
               <div className="highlight-icon">✓</div>
               <div>
-                <h4>Expert Craftsmanship</h4>
-                <p>Precision engineering with attention to every detail</p>
+                <h4>Expert Craftsmanship in Invisible Grills</h4>
+                <p>Precision engineering with transparent design and attention to every detail</p>
               </div>
             </div>
 
             <div className="highlight">
               <div className="highlight-icon">✓</div>
               <div>
-                <h4>Customer Focused</h4>
-                <p>Your satisfaction is our highest priority and commitment</p>
+                <h4>Customer Focused Service</h4>
+                <p>Your satisfaction is our highest priority. Professional installation within 48 hours</p>
               </div>
             </div>
 
             <div className="highlight">
               <div className="highlight-icon">✓</div>
               <div>
-                <h4>Innovative Solutions</h4>
-                <p>Latest technology integrated into timeless designs</p>
+                <h4>Innovative Safety Solutions</h4>
+                <p>Latest transparent netting technology for balcony, window, and child safety applications</p>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ const About = () => {
               <div className="highlight-icon">✓</div>
               <div>
                 <h4>Trusted by Thousands</h4>
-                <p>Over 10,000 satisfied customers across the region</p>
+                <p>Over 4500 satisfied customers across Chennai, Bangalore, Vizag, and Hyderabad</p>
               </div>
             </div>
           </div>
@@ -59,15 +59,15 @@ const About = () => {
           <div className="about-stats">
             <div className="about-stat">
               <span className="about-stat-number">15+</span>
-              <span className="about-stat-label">Years Experience</span>
+              <span className="about-stat-label">Years Excellence</span>
             </div>
             <div className="about-stat">
-              <span className="about-stat-number">10K+</span>
-              <span className="about-stat-label">Happy Customers</span>
+              <span className="about-stat-number">4500+</span>
+              <span className="about-stat-label">Happy Families</span>
             </div>
             <div className="about-stat">
-              <span className="about-stat-number">99.9%</span>
-              <span className="about-stat-label">Satisfaction Rate</span>
+              <span className="about-stat-number">4.9/5</span>
+              <span className="about-stat-label">Customer Rating</span>
             </div>
           </div>
         </div>
