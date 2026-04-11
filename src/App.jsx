@@ -33,6 +33,7 @@ import TransparentGrillsLanding from './components/TransparentGrillsLanding';
 import VideoShowcase from './components/VideoShowcase';
 import PricingTiers from './components/PricingTiers';
 import BrochureDownload from './components/BrochureDownload';
+import BenefitsSection from './components/BenefitsSection';
 import './App.css';
 
 // Main Home Page
@@ -82,6 +83,9 @@ function HomePage() {
         </section>
         <section id='blog'>
           <Blog />
+        </section>
+        <section id='benefits-detailed'>
+          <BenefitsSection />
         </section>
         <section id='certifications'>
           <Certifications />
