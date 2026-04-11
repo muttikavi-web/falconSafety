@@ -30,6 +30,9 @@ import CostLanding from './components/CostLanding';
 import InstallationLanding from './components/InstallationLanding';
 import BestGrillsLanding from './components/BestGrillsLanding';
 import TransparentGrillsLanding from './components/TransparentGrillsLanding';
+import VideoShowcase from './components/VideoShowcase';
+import PricingTiers from './components/PricingTiers';
+import BrochureDownload from './components/BrochureDownload';
 import './App.css';
 
 // Main Home Page
@@ -52,6 +55,9 @@ function HomePage() {
         <section id='about'>
           <About />
         </section>
+        <section id='video-showcase'>
+          <VideoShowcase />
+        </section>
         <section id='why-us'>
           <WhyChooseUs />
         </section>
@@ -68,6 +74,9 @@ function HomePage() {
         <section id='products'>
           <Products />
         </section>
+        <section id='pricing-tiers'>
+          <PricingTiers />
+        </section>
         <section id='industries'>
           <IndustrySolutions />
         </section>
@@ -79,6 +88,9 @@ function HomePage() {
         </section>
         <section id='faq'>
           <FAQ />
+        </section>
+        <section id='brochure'>
+          <BrochureDownload />
         </section>
         <section id='contact'>
           <Contact />

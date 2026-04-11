@@ -1,0 +1,422 @@
+/* Pricing Tiers Styles */
+.pricing-tiers {
+  padding: 4rem 2rem;
+  background: white;
+}
+
+.tiers-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tiers-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tiers-header h2 {
+  font-size: 2.2rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.tiers-header p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Tier Buttons */
+.tier-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.tier-btn {
+  padding: 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.tier-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tier-btn.active {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.tier-name {
+  display: block;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.tier-price {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #d4af37, #fbc124);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Tier Details */
+.tier-details {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 4rem;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tier-header-info {
+  padding: 2.5rem;
+  border-top: 4px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.tier-title-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tier-title-section h3 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: 800;
+}
+
+.recommended-badge {
+  background: linear-gradient(135deg, #d4af37, #fbc124);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.tier-price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price-label {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.price-value {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.tier-benefits {
+  padding: 2.5rem;
+}
+
+.benefits-info {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.benefits-info p {
+  margin: 0.5rem 0;
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Specifications Grid */
+.specifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.spec-label {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 0.95rem;
+}
+
+.spec-value {
+  color: #666;
+  font-size: 0.95rem;
+  background: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border-left: 3px solid #d4af37;
+}
+
+/* Tier CTA */
+.tier-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-quote {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-quote:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+}
+
+.btn-whatsapp {
+  padding: 1rem 2rem;
+  border: 2px solid #25D366;
+  background: white;
+  color: #25D366;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-whatsapp:hover {
+  background: #25D366;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Comparison Section */
+.comparison-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid #eee;
+}
+
+.comparison-section h3 {
+  font-size: 1.8rem;
+  color: #0f172a;
+  margin: 0 0 2rem 0;
+  font-weight: 800;
+}
+
+.comparison-table {
+  display: grid;
+  gap: 0;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.comp-row {
+  display: grid;
+  grid-template-columns: 200px repeat(3, 1fr);
+  gap: 0;
+}
+
+.comp-row.header {
+  background: linear-gradient(135deg, #d4af37, #fbc124);
+  font-weight: 700;
+  color: white;
+}
+
+.comp-row:nth-child(odd) {
+  background: #f8f9fa;
+}
+
+.comp-cell {
+  padding: 1.25rem;
+  text-align: center;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+
+.comp-cell:last-child {
+  border-right: none;
+}
+
+.comp-cell.label {
+  text-align: left;
+  font-weight: 700;
+  color: #0f172a;
+  background: white;
+  text-align: left;
+}
+
+.comp-row.header .comp-cell.label {
+  background: linear-gradient(135deg, #d4af37, #fbc124);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .comp-row {
+    grid-template-columns: 160px repeat(3, 1fr);
+  }
+
+  .comp-cell {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-tiers {
+    padding: 2rem 1rem;
+  }
+
+  .tiers-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .tier-buttons {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .tier-header-info {
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .tier-price-section {
+    align-items: flex-start;
+  }
+
+  .specifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tier-cta {
+    flex-direction: column;
+  }
+
+  .btn-quote,
+  .btn-whatsapp {
+    width: 100%;
+  }
+
+  .comparison-table {
+    font-size: 0.85rem;
+  }
+
+  .comp-row {
+    grid-template-columns: 120px repeat(3, 1fr);
+  }
+
+  .comp-cell {
+    padding: 0.75rem;
+    min-height: 50px;
+  }
+
+  .comp-cell.label {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tier-btn {
+    padding: 1rem;
+  }
+
+  .tier-name {
+    font-size: 0.95rem;
+  }
+
+  .tier-price {
+    font-size: 1.1rem;
+  }
+
+  .tier-details {
+    border-radius: 8px;
+  }
+
+  .tier-benefits {
+    padding: 1.5rem;
+  }
+
+  .specifications-grid {
+    gap: 1rem;
+  }
+
+  .spec-item {
+    gap: 0.25rem;
+  }
+
+  .spec-label {
+    font-size: 0.85rem;
+  }
+
+  .spec-value {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .btn-quote,
+  .btn-whatsapp {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .comp-row {
+    grid-template-columns: 100px repeat(3, 1fr);
+  }
+
+  .comp-cell {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    min-height: 45px;
+  }
+}
