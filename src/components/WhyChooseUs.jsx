@@ -6,38 +6,38 @@ const WhyChooseUs = () => {
     {
       id: 1,
       icon: '⭐',
-      title: 'Premium Quality',
-      description: 'Highest grade materials and expert craftsmanship ensure your grills last for decades'
+      title: 'Best Invisible Grills Price',
+      description: 'Invisible window grills from ₹400/sqft, balcony invisible grills at lowest cost. Best invisible grill price guaranteed!'
     },
     {
       id: 2,
       icon: '💰',
-      title: 'Best Value',
-      description: 'Competitive pricing without compromising on quality or durability'
+      title: 'Transparent Pricing',
+      description: 'No hidden charges. Get free invisible grill price quote with on-site measurement'
     },
     {
       id: 3,
       icon: '⚡',
-      title: 'Fast Installation',
-      description: 'Professional team completes installation in just 2-3 days'
+      title: '48-Hour Installation',
+      description: 'Professional installation of invisible grills in just 48 hours from confirmation'
     },
     {
       id: 4,
       icon: '🛡️',
-      title: 'Lifetime Support',
-      description: 'Free maintenance and support for the lifetime of your product'
+      title: '15-Year Warranty',
+      description: 'Lifetime support with 15-year warranty on all invisible grills and transparent designs'
     },
     {
       id: 5,
       icon: '✅',
-      title: 'Certified Safe.',
-      description: 'falcon certified and approved by safety standards authorities'
+      title: 'Safety Certified',
+      description: 'Child-safe invisible grills certified by international safety standards'
     },
     {
       id: 6,
       icon: '🚀',
-      title: 'Expert Team',
-      description: '15+ years of experience with trained and certified professionals'
+      title: '15+ Years Experience',
+      description: '4500+ happy customers with 4.9/5 rating. Experts in invisible grills installation'
     }
   ];
 
@@ -45,9 +45,9 @@ const WhyChooseUs = () => {
     <section className="why-choose-us">
       <div className="why-container">
         <div className="why-header">
-          <h2 className="section-title">Why Choose Falcon?</h2>
+          <h2 className="section-title">Why Choose Falcon Invisible Grills?</h2>
           <p className="section-subtitle">
-            The most trusted invisible grills brand in the region
+            Best Invisible Grills in Chennai, Bangalore, Vizag. Buy Invisible Window Grills from ₹400/sqft, Balcony Invisible Grills at lowest price. Trusted by 4500+ customers.
           </p>
         </div>
 

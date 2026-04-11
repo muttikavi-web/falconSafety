@@ -13,13 +13,14 @@ const About = () => {
         </div>
 
         <div className="about-content">
-          <h2 className="about-title">About Falcon Invisible Grills - Premium Safety Solutions</h2>
+          <h2 className="about-title">About Falcon Invisible Grills - Buy at Best Price</h2>
           
           <p className="about-description">
-            At Falcon Invisible Grills, we redefine security with invisible elegance. For over 15 years, we've been 
-            the leading manufacturer and installer of premium invisible grills and transparent safety solutions in Chennai, Bangalore, Vizag, 
-            and Hyderabad. We protect what matters most—your family and home—without compromising the beauty of your space. 
-            Trusted by 4500+ families and businesses across South India with our best-rated balcony grills, window grills, and child safety grills.
+            Falcon Invisible Grills is the #1 provider of premium Invisible Grills in Chennai, Bangalore, Vizag, and Hyderabad. 
+            We specialize in <strong>Invisible Window Grills</strong> and <strong>Balcony Invisible Grills</strong> with transparent design. 
+            Our invisible grill price starts from just ₹400/sqft - the most affordable invisible grills in the market. 
+            For over 15 years, we've been protecting families with our innovative transparent security solutions across South India. 
+            Trusted by 4500+ satisfied customers with 4.9/5 rating. Get your invisible grill price quote today - completely free!
           </p>
 
           <div className="about-highlights">

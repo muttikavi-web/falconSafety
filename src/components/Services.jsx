@@ -8,60 +8,60 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: 'Balcony Grills',
+      title: 'Balcony Invisible Grills',
       icon: '🏢',
-      description: 'Premium invisible grills for balconies',
-      details: 'Protect your loved ones with our sleek balcony safety grills that are virtually invisible. Engineered with high-strength steel, these grill systems provide maximum security while maintaining unobstructed views. Perfect for high-rise apartments and villas. Our best-selling balcony grill solution with professional installation.',
-      features: ['UV resistant', 'Corrosion proof', '15-year warranty', 'Easy installation', 'Transparent design'],
-      price: '₹5,000-₹15,000',
+      description: 'Premium invisible balcony grills - transparent & safe',
+      details: 'Buy Balcony Invisible Grills with premium high-strength steel and transparent design. Our invisible grills provide maximum security while maintaining unobstructed views. Perfect for high-rise apartments and villas. Invisible grill price starts from ₹400/sqft.',
+      features: ['UV resistant', 'Transparent mesh', '15-year warranty', 'Easy maintenance', 'Professional installation'],
+      price: '₹400-₹800/sqft',
       link: '/balcony-grills-chennai'
     },
     {
       id: 2,
-      title: 'Window Grills',
+      title: 'Invisible Window Grills',
       icon: '🪟',
-      description: 'Elegant protection for windows',
-      details: 'Our premium window safety grills combine security with elegance. The invisible grill design seamlessly integrates with any architectural style while providing comprehensive protection. Ideal for homes and offices. Best transparent window protection solution available.',
-      features: ['Custom sizing', 'Weather resistant', 'Low maintenance', 'Professional fitting', 'Child safe'],
-      price: '₹3,000-₹10,000',
+      description: 'Invisible window grills - secure & beautiful',
+      details: 'Buy Invisible Window Grills that combine security with elegance. Our transparent window grills seamlessly integrate with any architectural style while protecting your home. Best invisible grill price for windows starts at ₹400/sqft.',
+      features: ['Custom sizing', 'Weather resistant', 'Transparent view', 'Low maintenance', 'Child safe design'],
+      price: '₹400-₹700/sqft',
       link: '/window-grills-chennai'
     },
     {
       id: 3,
-      title: 'Child Safety Grills',
+      title: 'Child Safety Invisible Grills',
       icon: '👶',
-      description: 'Specialized protection for children',
-      details: 'Give peace of mind with our certified child safety grills. Designed specifically to prevent falls while remaining virtually invisible. Meets all international safety standards. Our safety-certified invisible grill system protects children without visual obstruction.',
-      features: ['Safety certified', 'Soft touch design', 'Easy cleaning', 'Aesthetic appeal', 'Fall prevention'],
-      price: '₹4,000-₹12,000',
+      description: 'Child-safe invisible grills - certified protection',
+      details: 'Get Child Safety Invisible Grills that prevent falls while remaining virtually invisible. Safety-certified transparent design. Best invisible grill solution for families with kids. Invisible grill price for child safety starts from ₹450/sqft.',
+      features: ['Safety certified', 'Soft touch design', 'Easy to clean', 'Transparent mesh', 'Fall prevention'],
+      price: '₹450-₹800/sqft',
       link: '/child-safety-grills'
     },
     {
       id: 4,
-      title: 'Pet Safety Grills',
+      title: 'Pet Safety Invisible Grills',
       icon: '🐾',
-      description: 'Keep pets safe and secure',
-      details: 'Designed to keep your beloved pets safe without restricting their view. The durable mesh construction prevents escape while maintaining the visual clarity of your space. Pet-friendly invisible grills that are virtually transparent.',
-      features: ['Durable mesh', 'Pet friendly', 'Escape proof', 'Easy to install', 'Transparent view'],
-      price: '₹3,000-₹9,000',
+      description: 'Pet-safe invisible grills - escape-proof design',
+      details: 'Buy Pet Safety Invisible Grills that keep your pets secure without blocking their view. Durable transparent mesh construction prevents escape. Invisible grill price for pets starts from ₹400/sqft.',
+      features: ['Durable mesh', 'Pet friendly', 'Escape proof', 'Transparent design', 'Easy installation'],
+      price: '₹400-₹700/sqft',
       link: '/#services'
     },
     {
       id: 5,
-      title: 'Professional Installation',
+      title: 'Professional Invisible Grill Installation',
       icon: '🔧',
-      description: 'Expert installation service',
-      details: 'Our certified technicians ensure perfect installation. We handle everything from measurement to mounting, guaranteeing a flawless finish and optimal performance. 48-hour professional service with free consultation.',
-      features: ['Free consultation', 'Skilled technicians', '24/7 support', '1-year service warranty', '48-hr installation'],
+      description: 'Expert invisible grill installation service',
+      details: 'Get professional installation for your invisible grills. Our certified technicians ensure perfect fitting and optimal performance. Free consultation and measurement. Installation completed within 48 hours.',
+      features: ['Free consultation', 'Expert technicians', '24/7 support', '1-year warranty', '48-hr installation'],
       price: 'Starting ₹500',
       link: '/invisible-grill-installation-process'
     },
     {
       id: 6,
-      title: 'Custom Designs',
+      title: 'Custom Invisible Grill Design',
       icon: '🎨',
-      description: 'Tailored solutions for your needs',
-      details: 'Every space is unique. We offer custom design solutions for invisible grill systems to perfectly match your requirements and architectural style. Premium custom invisible grill solutions.',
+      description: 'Customized invisible grill solutions',
+      details: 'Get custom invisible grill solutions designed for your specific needs. We create personalized transparent grill designs for unique spaces. Free design consultation and competitive pricing.',
       features: ['Custom measurements', 'Design consultation', 'Material options', 'Flexible pricing', 'Demo available'],
       price: 'Custom quote',
       link: '/#contact'
@@ -72,9 +72,9 @@ const Services = () => {
     <section className="services">
       <div className="services-container">
         <div className="services-header">
-          <h2 className="section-title">Our Invisible Grill Services</h2>
+          <h2 className="section-title">Invisible Grills Services - Buy at Best Price</h2>
           <p className="section-subtitle">
-            Comprehensive invisible grill solutions in Chennai, Bangalore, Vizag & Hyderabad. Premium balcony grills, window grills, child safety grills, and professional transparent grill installation.
+            Buy Invisible Window Grills & Balcony Invisible Grills from ₹400-800/sqft in Chennai, Bangalore, Vizag. Premium invisible grill installation with transparent design and lifetime warranty.
           </p>
         </div>
 

@@ -63,9 +63,9 @@ const Features = () => {
     <section className="features">
       <div className="features-container">
         <div className="features-header">
-          <h2 className="section-title">Why Choose Falcon?</h2>
+          <h2 className="section-title">Why Choose Falcon Invisible Grills?</h2>
           <p className="section-subtitle">
-            Trusted invisible grill provider in Chennai, Vizag, Bangalore & Hyderabad. Experience the perfect blend of security, elegance, and reliability.
+            Buy Invisible Grills at best price - Invisible Window Grills from ₹400/sqft, Balcony Invisible Grills from ₹400/sqft. Premium transparent design with 4500+ installations across Chennai, Bangalore, Vizag, and Hyderabad.
           </p>
         </div>
 

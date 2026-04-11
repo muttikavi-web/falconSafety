@@ -47,29 +47,29 @@ export default function Hero() {
 
       <div className="hero-container">
         <div className="hero-content">
-          <span className="hero-badge">🚀 #1 Premium Invisible Grill Solution in South India</span>
-          <h1>Falcon Invisible Grills | Best Transparent Safety Solutions<br />in Chennai, Bangalore, Vizag & Hyderabad</h1>
-          <p>Experience ultimate safety without compromising on views. Leading provider of premium invisible grills for windows, balconies, and child safety across India. Our advanced transparent netting technology protects your family while maintaining crystal-clear visibility. Best-rated balcony grills and window grills with 15-year warranty, 48-hour professional installation, and free consultation. Serving 4500+ happy customers with 4.9/5 ratings.</p>
+          <span className="hero-badge">🚀 #1 Invisible Grills Provider in Chennai - Starting ₹400/sqft</span>
+          <h1>Invisible Grills in Chennai | Invisible Window Grills | Balcony Invisible Grills at Best Price | ₹400-800/sqft</h1>
+          <p>Looking for <strong>Invisible Grills</strong>? Buy premium <strong>Invisible Window Grills</strong> and <strong>Balcony Invisible Grills</strong> in Chennai at the lowest price - ₹400-800 per sq.ft. Falcon Invisible Grills provides transparent safety solutions with 4500+ installations, 4.9/5 customer rating, 15-year warranty, and 48-hour professional installation. Get your invisible grill price quote today - completely free with on-site measurement. Serving Chennai, Bangalore, Vizag, and Hyderabad.</p>
           
           <div className="hero-cta">
             <button className="btn-primary">
-              <a href="tel:+919000888367">Get Free Estimate</a>
+              <a href="tel:+919000888367">Get Free Invisible Grill Quote</a>
             </button>
-            <button className="btn-secondary">Watch Demo</button>
+            <button className="btn-secondary">Watch Invisible Grill Demo</button>
           </div>
 
           <div className="hero-stats">
             <div className="stat">
               <h3>4500+</h3>
-              <p>Installations</p>
+              <p>Invisible Grills Installed</p>
             </div>
             <div className="stat">
               <h3>4.9/5</h3>
               <p>Customer Rating</p>
             </div>
             <div className="stat">
-              <h3>15-Yr</h3>
-              <p>Warranty</p>
+              <h3>₹400/sqft</h3>
+              <p>Starting Price</p>
             </div>
           </div>
         </div>

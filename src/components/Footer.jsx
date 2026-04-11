@@ -42,12 +42,13 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4>Information & Guides</h4>
+            <h4>Invisible Grills Price & Keywords</h4>
             <ul>
-              <li><Link to="/invisible-grill-cost" title="Invisible grill pricing and cost">Grill Cost Guide</Link></li>
-              <li><Link to="/invisible-grill-installation-process" title="Professional installation steps">Installation Process</Link></li>
-              <li><Link to="/best-invisible-grill" title="Best invisible grill systems">Best Grills</Link></li>
-              <li><Link to="/invisible-grill-guides" title="Invisible grill FAQs and guides">Grill Guides</Link></li>
+              <li><Link to="/invisible-grill-cost" title="Invisible grill price and cost">Invisible Grill Price</Link></li>
+              <li><a href="/#services" title="Check invisible window grills">Invisible Window Grills</a></li>
+              <li><a href="/#services" title="View balcony invisible grills">Balcony Invisible Grills</a></li>
+              <li><Link to="/invisible-grills-chennai" title="Invisible grills in Chennai">Invisible Grills Chennai</Link></li>
+              <li><a href="/#services" title="See transparent grills">Transparent Grills</a></li>
             </ul>
           </div>
 
