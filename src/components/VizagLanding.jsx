@@ -11,7 +11,7 @@ export default function VizagLanding() {
         <meta property="og:title" content="Invisible Grills in Vizag - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Best invisible grills in Visakhapatnam with 1200+ installations. Coastal-resistant, premium quality, lifetime warranty." />
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-vizag" />
-        <canonical href="https://falconinvisiblegrill.com/invisible-grills-vizag" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-vizag" />
       </Helmet>
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",

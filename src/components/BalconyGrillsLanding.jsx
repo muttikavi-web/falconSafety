@@ -10,7 +10,7 @@ export default function BalconyGrillsLanding() {
         <meta name="keywords" content="balcony invisible grills, balcony grills chennai, transparent balcony grills, safety grills for balcony, invisible grill price, balcony protection" />
         <meta property="og:title" content="Invisible Balcony Grills - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Premium invisible balcony grills with crystal-clear views. Enjoy unobstructed balcony views safely. 400kg capacity, lifetime warranty." />
-        <canonical href="https://falconinvisiblegrill.com/balcony-grills-chennai" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/balcony-grills-chennai" />
       </Helmet>
       
       <h1>Balcony Grills in Chennai | Best Transparent Safety Solutions for Balconies</h1>

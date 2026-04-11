@@ -10,7 +10,7 @@ export default function ChildSafetyGrillsLanding() {
         <meta name="keywords" content="child safety grills, baby safety grills, prevent window falls, balcony safety, toddler protection, child safe invisible grills, window safety" />
         <meta property="og:title" content="Child Safety Invisible Grills - Prevent Falls | Falcon" />
         <meta property="og:description" content="Certified child-safe invisible grills. Protect kids from falls while maintaining views. 2000+ families trust Falcon." />
-        <canonical href="https://falconinvisiblegrill.com/child-safety-grills" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/child-safety-grills" />
       </Helmet>
       
       <h1>Child Safety Grills | Best Protection from Falls & Accidents for Kids & Toddlers</h1>

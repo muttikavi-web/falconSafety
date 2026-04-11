@@ -10,7 +10,7 @@ export default function CostLanding() {
         <meta name="keywords" content="invisible grill cost, invisible grill price, grill price per sqft, cost breakdown, transparent pricing, quote, calculator" />
         <meta property="og:title" content="Invisible Grill Cost & Price - Transparent Pricing | Falcon" />
         <meta property="og:description" content="Invisible grill cost in Chennai from ₹300-850/sqft. Free quote, no hidden charges, lifetime warranty." />
-        <canonical href="https://falconinvisiblegrill.com/invisible-grill-cost" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grill-cost" />
       </Helmet>
       
       <h1>Invisible Grill Cost in Chennai | 2026 Price Breakdown & Transparent Tariff</h1>

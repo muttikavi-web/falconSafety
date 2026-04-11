@@ -191,7 +191,7 @@ export default function ChennaiLanding() {
         <meta property="og:title" content="Invisible Grills in Chennai - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Best invisible grills in Chennai with 2000+ installations. Transparent safety grills for windows & balconies. 48-hour professional installation, lifetime warranty." />
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
-        <canonical href="https://falconinvisiblegrill.com/invisible-grills-chennai" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-chennai" />
       </Helmet>
       {/* Schema Markup */}
       <script type="application/ld+json">{JSON.stringify({

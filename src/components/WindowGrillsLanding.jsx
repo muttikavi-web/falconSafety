@@ -10,7 +10,7 @@ export default function WindowGrillsLanding() {
         <meta name="keywords" content="invisible window grills, window grills chennai, transparent window grills, safety grills for windows, window protection, invisible grills price" />
         <meta property="og:title" content="Invisible Window Grills - 24 Years Best Quality | Chennai" />
         <meta property="og:description" content="Premium invisible window grills with crystal-clear views. 2000+ Chennai homes protected. ₹400-700/sqft, lifetime warranty." />
-        <canonical href="https://falconinvisiblegrill.com/window-grills-chennai" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/window-grills-chennai" />
       </Helmet>
       
       <h1>Window Grills in Chennai | Best Transparent Safety Shields for Windows</h1>

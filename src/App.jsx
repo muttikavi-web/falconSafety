@@ -47,7 +47,7 @@ function HomePage() {
         <meta name="keywords" content="invisible grills, invisible grills price, invisible grills chennai, invisible window grills, balcony invisible grills, invisible grill cost, invisible grills installation, best invisible grills" />
         <meta property="og:title" content="Invisible Grills - 24 Years Best Quality | Falcon Invisible Grills" />
         <meta property="og:description" content="Falcon Invisible Grills - 24 Years of Excellence! Best Invisible Grills in Chennai. Premium Invisible Window & Balcony Grills. ₹400-800/sqft. 4500+ homes protected. Lifetime warranty & support!" />
-        <canonical href="https://falconinvisiblegrill.com/" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/" />
       </Helmet>
       <Header />
       <NotificationPopup />

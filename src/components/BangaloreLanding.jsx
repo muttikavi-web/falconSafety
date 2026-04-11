@@ -11,7 +11,7 @@ export default function BangaloreLanding() {
         <meta property="og:title" content="Invisible Grills in Bangalore - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Best invisible grills in Bangalore with 1500+ installations. Transparent safety solutions for windows & balconies. 48-hour professional installation." />
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
-        <canonical href="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
+        <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
       </Helmet>
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
