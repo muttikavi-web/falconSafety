@@ -29,12 +29,29 @@ export default function VizagLanding() {
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-vizag" />
         <meta property="og:site_name" content="Falcon Invisible Grills" />
         <meta property="og:locale" content="en_IN" />
+        <meta property="og:image" content="https://falconinvisiblegrill.com/og-image-vizag.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
         
         {/* Twitter Card Meta Tags */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Invisible Grills in Vizag - ₹400-800/sqft" />
         <meta property="twitter:description" content="Best invisible grill in Visakhapatnam with coastal-resistant technology." />
+        <meta property="twitter:image" content="https://falconinvisiblegrill.com/twitter-image-vizag.jpg" />
         <meta name="twitter:creator" content="@FalconGrills" />
+        <meta name="twitter:site" content="@FalconGrills" />
+        
+        {/* Additional Meta Tags for Better Ranking */}
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="target" content="all" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="identifier-URL" content="https://falconinvisiblegrill.com/invisible-grills-vizag" />
+        <meta property="article:section" content="Services" />
+        <meta property="article:tag" content="invisible grills" />
+        <meta property="article:tag" content="vizag" />
+        <meta property="article:tag" content="coastal grills" />
         
         {/* Canonical URL and Home Link */}
         <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-vizag" />
@@ -45,13 +62,87 @@ export default function VizagLanding() {
         <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
         <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
+      
+      {/* LocalBusiness Schema */}
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Invisible Grills Vizag",
+        "name": "Falcon Invisible Grills - Vizag",
         "description": "Premium invisible grills in Vizag with 1200+ installations. Balcony, window, and child safety solutions across Visakhapatnam with 15-year warranty.",
         "url": "https://falconinvisiblegrill.com/invisible-grills-vizag",
-        "areaServed": ["Vizag", "Visakhapatnam", "Dwaraka Nagar", "Westmonton", "Madhurawada"]
+        "areaServed": ["Vizag", "Visakhapatnam", "Dwaraka Nagar", "Westmonton", "Madhurawada"],
+        "telephone": "+919000888367",
+        "priceRange": "₹600-₹1000",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "1200",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "INR",
+          "lowPrice": "600",
+          "highPrice": "1000",
+          "offerCount": "1200",
+          "availability": "https://schema.org/InStock"
+        }
+      })}</script>
+
+      {/* Service Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Coastal Invisible Grills Installation in Vizag",
+        "description": "Premium coastal-resistant invisible grills for windows and balconies in Vizag with 24 years experience",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Falcon Invisible Grills",
+          "url": "https://falconinvisiblegrill.com"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Visakhapatnam"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Invisible Grill Services - Vizag",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Coastal-Resistant Window Grills",
+              "priceCurrency": "INR",
+              "price": "600-900"
+            },
+            {
+              "@type": "Offer",
+              "name": "Coastal-Resistant Balcony Grills",
+              "priceCurrency": "INR",
+              "price": "600-1000"
+            }
+          ]
+        }
+      })}</script>
+
+      {/* BreadcrumbList Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://falconinvisiblegrill.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Invisible Grills in Vizag",
+            "item": "https://falconinvisiblegrill.com/invisible-grills-vizag"
+          }
+        ]
       })}</script>
 
       <h1>Invisible Grills in Vizag | Premium Rust-Resistant Coastal Safety Grills</h1>

@@ -5,17 +5,60 @@ export default function BalconyGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Balcony Grills in Chennai | 24 Years Best Quality | ₹400-800/sqft</title>
-        <meta name="description" content="Falcon Invisible Balcony Grills in Chennai - 24 years, 2000+ installations. Premium transparent grills for balconies. Unobstructed views, 400kg+ weight capacity. ₹400-800/sqft. Lifetime warranty." />
-        <meta name="keywords" content="balcony invisible grills, balcony grills chennai, transparent balcony grills, safety grills for balcony, invisible grill price, balcony protection" />
-        <meta property="og:title" content="Invisible Balcony Grills - 24 Years Best Quality | Falcon" />
-        <meta property="og:description" content="Premium invisible balcony grills with crystal-clear views. Enjoy unobstructed balcony views safely. 400kg capacity, lifetime warranty." />
+        <title>Invisible Balcony Grills in Chennai | Best Invisible Grill in Chennai | ₹400-800/sqft</title>
+        <meta name="description" content="Falcon Invisible Balcony Grills in Chennai - Best invisible grill in chennai with 24 years, 2000+ installations. Premium transparent grills for balconies. Unobstructed views, 400kg+ weight capacity. ₹400-800/sqft. Lifetime warranty." />
+        <meta name="keywords" content="invisible grill in chennai, balcony invisible grills, balcony grills chennai, transparent balcony grills, invisible grill, safety grills for balcony, invisible grill price, balcony protection, best invisible grill in chennai" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        
+        {/* Geographical Meta Tags - Chennai Specific */}
+        <meta name="geo.placename" content="Chennai, Tamil Nadu" />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.position" content="13.0827;80.2707" />
+        <meta name="ICBM" content="13.0827, 80.2707" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Invisible Balcony Grills in Chennai - Best Quality | Falcon" />
+        <meta property="og:description" content="Premium invisible balcony grills with crystal-clear views. 2000+ Chennai homes protected. Unobstructed views, ₹400-800/sqft, lifetime warranty." />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/balcony-grills-chennai" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Invisible Balcony Grills in Chennai - ₹400-800/sqft" />
+        <meta property="twitter:description" content="Best invisible grill in Chennai for balcony protection with unobstructed views." />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        
+        {/* Canonical URL and Home Link */}
         <link rel="canonical" href="https://falconinvisiblegrill.com/balcony-grills-chennai" />
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
+        
+        {/* Article Metadata */}
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
       
-      <h1>Balcony Grills in Chennai | Best Transparent Safety Solutions for Balconies</h1>
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Falcon Invisible Balcony Grills - Chennai",
+        "description": "Best invisible balcony grills in Chennai with 24 years experience and 2000+ installations",
+        "url": "https://falconinvisiblegrill.com/balcony-grills-chennai",
+        "areaServed": ["Chennai", "Thiruvanmiyur", "Besant Nagar", "Anna Nagar"]
+      })}</script>
+      
+      <h1>Invisible Balcony Grills in Chennai | Best Invisible Grill in Chennai</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Protect your balcony while maintaining stunning views. Invisible safety grills for Chennai balconies. Child-safe, pet-proof, ocean-view approved. 2000+ happy customers.</p>
 
+      <h2>Falcon Invisible Balcony Grills - Chennai's Most Trusted Solution</h2>
       <div style={{ background: '#fff3cd', padding: '30px', borderRadius: '8px', marginBottom: '40px' }}>
         <h2 style={{ color: '#856404' }}>Why Balcony Grills Are Critical</h2>
         <ul style={{ lineHeight: '1.8', fontSize: '1.05em' }}>

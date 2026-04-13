@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 
 function InstallationSEO() {
   useEffect(() => {
-    document.title = 'Invisible Grill Installation Process | Step-by-Step Guide | Professional Installation';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Invisible grill installation process in Chennai - complete step-by-step guide. Professional installation in 2-5 days. Zero structural damage. Free consultation included.');
-    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grill installation, installation process, how to install invisible grills, professional installation, installation guide');
+    document.title = 'Invisible Grill Installation in Chennai | Professional 48-Hour Installation | Best Invisible Grill';
+    document.querySelector('meta[name="description"]').setAttribute('content', 'Invisible grill installation process in Chennai - complete step-by-step guide. Professional installation in 48 hours. Best invisible grill experts. Zero structural damage. Free consultation included.');
+    document.querySelector('meta[name="keywords"]').setAttribute('content', 'invisible grill installation, invisible grill in chennai, installation process, how to install invisible grills, professional installation, installation guide, best invisible grill installation');
     
     // Add BreadcrumbList Schema
     const breadcrumbSchema = {

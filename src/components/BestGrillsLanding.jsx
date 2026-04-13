@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 
 function BestGrillsSEO() {
   useEffect(() => {
-    document.title = 'Best Invisible Grills | Top Quality Brands Comparison | Falcon vs Others';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Best invisible grills in Chennai - compare top brands & quality. Falcon invisible grills with 15-year warranty, 2000+ installations, 4.9/5 rating. Premium vs budget options.');
-    document.querySelector('meta[name="keywords"]').setAttribute('content', 'best invisible grills, invisible grill brands, best quality invisible grills, invisible grill comparison, top invisible grill brands');
+    document.title = 'Best Invisible Grills in Chennai | Top Quality Brands Comparison | Falcon';
+    document.querySelector('meta[name="description"]').setAttribute('content', 'Best invisible grills in Chennai - compare top brands & quality. Best invisible grill with 15-year warranty, 2000+ installations, 4.9/5 rating. Premium vs budget options.');
+    document.querySelector('meta[name="keywords"]').setAttribute('content', 'best invisible grills, invisible grill in chennai, invisible grill brands, best quality invisible grills, invisible grill comparison, top invisible grill brands in chennai');
     
     // Add BreadcrumbList Schema
     const breadcrumbSchema = {

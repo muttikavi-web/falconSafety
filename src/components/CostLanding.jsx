@@ -5,17 +5,62 @@ export default function CostLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Grill Cost & Price in Chennai | 24 Years Transparent Pricing | ₹300-850/sqft</title>
-        <meta name="description" content="Falcon Invisible Grill Cost in Chennai - transparent pricing from ₹300-850/sqft. Window grills ₹400-700/sqft, balcony grills ₹400-800/sqft. Free quote, no hidden charges. 24 years experience." />
-        <meta name="keywords" content="invisible grill cost, invisible grill price, grill price per sqft, cost breakdown, transparent pricing, quote, calculator" />
+        <title>Invisible Grill Cost & Price in Chennai | Best Invisible Grill | ₹300-850/sqft</title>
+        <meta name="description" content="Falcon Invisible Grill Cost in Chennai - Best invisible grill pricing from ₹300-850/sqft. Window grills ₹400-700/sqft, balcony grills ₹400-800/sqft. Free quote, no hidden charges. 24 years experience, transparent pricing." />
+        <meta name="keywords" content="invisible grill cost, invisible grill price, invisible grill in chennai, grill price per sqft, cost breakdown, transparent pricing, invisible grill price in chennai, quote calculator" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        
+        {/* Geographical Meta Tags - Chennai Specific */}
+        <meta name="geo.placename" content="Chennai, Tamil Nadu" />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.position" content="13.0827;80.2707" />
+        <meta name="ICBM" content="13.0827, 80.2707" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Invisible Grill Cost & Price in Chennai - Transparent Pricing | Falcon" />
+        <meta property="og:description" content="Invisible grill cost in Chennai from ₹300-850/sqft. Free quote, no hidden charges, lifetime warranty." />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grill-cost" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Invisible Grill Price in Chennai - ₹300-850/sqft" />
+        <meta property="twitter:description" content="Transparent pricing for invisible grills in Chennai. Free quote, no hidden charges." />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        
+        {/* Canonical URL and Home Link */}
         <meta property="og:title" content="Invisible Grill Cost & Price - Transparent Pricing | Falcon" />
         <meta property="og:description" content="Invisible grill cost in Chennai from ₹300-850/sqft. Free quote, no hidden charges, lifetime warranty." />
         <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grill-cost" />
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
+        
+        {/* Article Metadata */}
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
       
-      <h1>Invisible Grill Cost in Chennai | 2026 Price Breakdown & Transparent Tariff</h1>
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Falcon Invisible Grills Cost & Pricing - Chennai",
+        "description": "Transparent invisible grill pricing in Chennai with 24 years experience",
+        "url": "https://falconinvisiblegrill.com/invisible-grill-cost",
+        "areaServed": ["Chennai"]
+      })}</script>
+      
+      <h1>Invisible Grill Cost in Chennai | Best Invisible Grill Pricing Breakdown</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Transparent pricing for invisible grills in Chennai. Know exactly what you'll pay before installation. No hidden charges. Free quote with on-site measurement.</p>
 
+      <h2>Falcon Invisible Grills - Transparent Pricing in Chennai</h2>
       <div style={{ background: '#e3f2fd', padding: '30px', borderRadius: '8px', marginBottom: '40px', border: '2px solid #0066cc' }}>
         <h2 style={{ color: '#0066cc', marginTop: '0' }}>Quick Price Range</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>

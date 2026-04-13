@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 
 function SafetyGrillsSEO() {
   useEffect(() => {
-    document.title = 'Transparent Safety Grills | Best Modern Security Solutions | Falcon';
-    document.querySelector('meta[name="description"]').setAttribute('content', 'Transparent safety grills for windows, balconies, doors. Modern security solution with 99% visibility. Child-safe, pet-proof. Better than traditional iron bars. Free consultation.');
-    document.querySelector('meta[name="keywords"]').setAttribute('content', 'transparent safety grills, safety nets, transparent grills, modern security grills, window safety, balcony protection');
+    document.title = 'Transparent Safety Grills in Chennai | Best Invisible Grill Security Solution';
+    document.querySelector('meta[name="description"]').setAttribute('content', 'Transparent safety grills in Chennai - best invisible grill for windows, balconies, doors. Modern security solution with 99% visibility. Child-safe, pet-proof. Better than traditional iron bars.');
+    document.querySelector('meta[name="keywords"]').setAttribute('content', 'transparent safety grills, transparent grills, invisible grill in chennai, safety nets, modern security grills, window safety, balcony protection, best transparent grills');
     
     // Add BreadcrumbList Schema
     const breadcrumbSchema = {

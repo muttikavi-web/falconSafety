@@ -29,12 +29,29 @@ export default function BangaloreLanding() {
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
         <meta property="og:site_name" content="Falcon Invisible Grills" />
         <meta property="og:locale" content="en_IN" />
+        <meta property="og:image" content="https://falconinvisiblegrill.com/og-image-bangalore.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
         
         {/* Twitter Card Meta Tags */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Invisible Grills in Bangalore - ₹400-800/sqft" />
         <meta property="twitter:description" content="Best invisible grill in Bangalore with 24 years experience." />
+        <meta property="twitter:image" content="https://falconinvisiblegrill.com/twitter-image-bangalore.jpg" />
         <meta name="twitter:creator" content="@FalconGrills" />
+        <meta name="twitter:site" content="@FalconGrills" />
+        
+        {/* Additional Meta Tags for Better Ranking */}
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="target" content="all" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="identifier-URL" content="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
+        <meta property="article:section" content="Services" />
+        <meta property="article:tag" content="invisible grills" />
+        <meta property="article:tag" content="bangalore" />
+        <meta property="article:tag" content="safety grills" />
         
         {/* Canonical URL and Home Link */}
         <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
@@ -45,13 +62,87 @@ export default function BangaloreLanding() {
         <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
         <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
+      
+      {/* LocalBusiness Schema */}
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Invisible Grills Bangalore",
+        "name": "Falcon Invisible Grills - Bangalore",
         "description": "Premium invisible grills in Bangalore with 1500+ installations. Balcony, window, child safety services across Indiranagar, Koramangala, Whitefield, and all Bangalore areas.",
         "url": "https://falconinvisiblegrill.com/invisible-grills-bangalore",
-        "areaServed": ["Bangalore", "Indiranagar", "Koramangala", "Whitefield", "Malleswaram"]
+        "areaServed": ["Bangalore", "Indiranagar", "Koramangala", "Whitefield", "Malleswaram"],
+        "telephone": "+919000888367",
+        "priceRange": "₹400-₹800",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "1500",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "INR",
+          "lowPrice": "400",
+          "highPrice": "800",
+          "offerCount": "1500",
+          "availability": "https://schema.org/InStock"
+        }
+      })}</script>
+
+      {/* Service Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Invisible Grills Installation in Bangalore",
+        "description": "Premium invisible grills for windows and balconies in Bangalore with 24 years experience",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Falcon Invisible Grills",
+          "url": "https://falconinvisiblegrill.com"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Bangalore"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Invisible Grill Services - Bangalore",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Window Grills Installation",
+              "priceCurrency": "INR",
+              "price": "400-700"
+            },
+            {
+              "@type": "Offer",
+              "name": "Balcony Grills Installation",
+              "priceCurrency": "INR",
+              "price": "400-800"
+            }
+          ]
+        }
+      })}</script>
+
+      {/* BreadcrumbList Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://falconinvisiblegrill.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Invisible Grills in Bangalore",
+            "item": "https://falconinvisiblegrill.com/invisible-grills-bangalore"
+          }
+        ]
       })}</script>
 
       <h1>Falcon Invisible Grills in Bangalore | Best Transparent Safety Grills for Windows & Balconies</h1>

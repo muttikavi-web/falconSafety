@@ -5,17 +5,62 @@ export default function WindowGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Window Grills in Chennai | 24 Years Best Quality | ₹400-700/sqft</title>
-        <meta name="description" content="Falcon Invisible Window Grills in Chennai - 24 years, 2000+ installations. Premium transparent safety grills for windows. ₹400-700/sqft. 48-hour professional installation, lifetime warranty." />
-        <meta name="keywords" content="invisible window grills, window grills chennai, transparent window grills, safety grills for windows, window protection, invisible grills price" />
+        <title>Invisible Window Grills in Chennai | Best Invisible Grill in Chennai | ₹400-700/sqft</title>
+        <meta name="description" content="Falcon Invisible Window Grills in Chennai - Best invisible grill in chennai with 24 years experience, 2000+ installations. Premium transparent safety grills for windows. ₹400-700/sqft. 48-hour professional installation, lifetime warranty." />
+        <meta name="keywords" content="invisible grill in chennai, invisible window grills, window grills chennai, transparent window grills, invisible grill, window grill price, safety grills for windows, window protection, invisible grills price, best invisible grill in chennai" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        
+        {/* Geographical Meta Tags - Chennai Specific */}
+        <meta name="geo.placename" content="Chennai, Tamil Nadu" />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.position" content="13.0827;80.2707" />
+        <meta name="ICBM" content="13.0827, 80.2707" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Invisible Window Grills in Chennai - Best Quality | Falcon" />
+        <meta property="og:description" content="Premium invisible window grills with crystal-clear views. 2000+ Chennai homes protected. ₹400-700/sqft, lifetime warranty. Free consultation." />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/window-grills-chennai" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Invisible Window Grills in Chennai - ₹400-700/sqft" />
+        <meta property="twitter:description" content="Best invisible grill in Chennai for transparent window protection. Free consultation & 48-hour installation." />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        
+        {/* Canonical URL and Home Link */}
         <meta property="og:title" content="Invisible Window Grills - 24 Years Best Quality | Chennai" />
         <meta property="og:description" content="Premium invisible window grills with crystal-clear views. 2000+ Chennai homes protected. ₹400-700/sqft, lifetime warranty." />
         <link rel="canonical" href="https://falconinvisiblegrill.com/window-grills-chennai" />
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
+        
+        {/* Article Metadata */}
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
       
-      <h1>Window Grills in Chennai | Best Transparent Safety Shields for Windows</h1>
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Falcon Invisible Window Grills - Chennai",
+        "description": "Best invisible window grills in Chennai with 24 years experience and 2000+ installations",
+        "url": "https://falconinvisiblegrill.com/window-grills-chennai",
+        "areaServed": ["Chennai", "Thiruvanmiyur", "Besant Nagar", "T. Nagar", "Anna Nagar"]
+      })}</script>
+      
+      <h1>Invisible Window Grills in Chennai | Best Invisible Grill in Chennai</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Protect your windows with crystal-clear invisible safety grills. 2000+ Chennai homes trust us for transparent window protection. Professional installation, 15-year warranty.</p>
 
+      <h2>Falcon Invisible Window Grills - Chennai's Most Trusted Solution</h2>
       <div style={{ background: '#f0f4ff', padding: '30px', borderRadius: '8px', marginBottom: '40px' }}>
         <h2>Why Window Grills Are Essential</h2>
         <ul style={{ lineHeight: '1.8', fontSize: '1.05em' }}>
@@ -57,22 +102,22 @@ export default function WindowGrillsLanding() {
         <li><strong>Quality Inspection:</strong> Final check and customer handover</li>
       </ol>
 
-      <h2>FAQ: Window Grills in Chennai</h2>
+      <h2>FAQ: Window Grills in Chennai - Invisible Grill Solutions</h2>
       <div style={{ marginBottom: '40px' }}>
         <div style={{ marginBottom: '20px', borderBottom: '1px solid #ddd', paddingBottom: '15px' }}>
-          <h4>Q: How much do window grills cost in Chennai?</h4>
+          <h3>Q: How much do window grills cost in Chennai?</h3>
           <p>A: Typically ₹400-800 per sq.ft depending on size and material. Average window (10 sq.ft) costs ₹4000-8000. We provide free quotes with on-site measurement.</p>
         </div>
         <div style={{ marginBottom: '20px', borderBottom: '1px solid #ddd', paddingBottom: '15px' }}>
-          <h4>Q: Can I install window grills in old buildings?</h4>
+          <h3>Q: Can I install window grills in old buildings?</h3>
           <p>A: Yes! Our grills work in buildings 20+ years old. No structural modifications needed. Society permission usually not required.</p>
         </div>
         <div style={{ marginBottom: '20px', borderBottom: '1px solid #ddd', paddingBottom: '15px' }}>
-          <h4>Q: Will window grills block my views?</h4>
+          <h3>Q: Will window grills block my views?</h3>
           <p>A: No! Transparent mesh retains 99% visibility. Perfect for apartments with street/ocean views.</p>
         </div>
         <div style={{ marginBottom: '20px', borderBottom: '1px solid #ddd', paddingBottom: '15px' }}>
-          <h4>Q: How long do window grills last?</h4>
+          <h3>Q: How long do window grills last?</h3>
           <p>A: 15-20 years with minimal maintenance. Our 15-year durability guarantee covers manufacturing defects.</p>
         </div>
       </div>

@@ -209,12 +209,30 @@ export default function ChennaiLanding() {
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
         <meta property="og:site_name" content="Falcon Invisible Grills" />
         <meta property="og:locale" content="en_IN" />
+        <meta property="og:image" content="https://falconinvisiblegrill.com/og-image-chennai.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
         
         {/* Twitter Card Meta Tags */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Invisible Grills in Chennai - ₹400-800/sqft | Falcon" />
         <meta property="twitter:description" content="Best invisible grill in Chennai with 24 years experience. Free consultation & 48-hour installation available." />
+        <meta property="twitter:image" content="https://falconinvisiblegrill.com/twitter-image-chennai.jpg" />
         <meta name="twitter:creator" content="@FalconGrills" />
+        <meta name="twitter:site" content="@FalconGrills" />
+        
+        {/* Additional Meta Tags for Better Ranking */}
+        <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="target" content="all" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="identifier-URL" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
+        <meta property="article:section" content="Services" />
+        <meta property="article:tag" content="invisible grills" />
+        <meta property="article:tag" content="chennai" />
+        <meta property="article:tag" content="safety grills" />
         
         {/* Canonical URL */}
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
@@ -228,7 +246,7 @@ export default function ChennaiLanding() {
         <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
         <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
-      {/* Schema Markup */}
+      {/* LocalBusiness Schema */}
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -260,11 +278,131 @@ export default function ChennaiLanding() {
           "https://www.facebook.com/falconvisiblegrill",
           "https://www.instagram.com/falconvisiblegrill"
         ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "2000",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
         "review": {
           "@type": "Review",
           "reviewRating": { "@type": "Rating", "ratingValue": "4.9" },
           "author": { "@type": "Person", "name": "Rajesh Kumar" }
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "INR",
+          "lowPrice": "400",
+          "highPrice": "800",
+          "offerCount": "2000",
+          "availability": "https://schema.org/InStock"
         }
+      })}</script>
+
+      {/* Product Service Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Invisible Grills Installation",
+        "description": "Premium invisible grills for windows and balconies in Chennai with 24 years experience",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Falcon Invisible Grills",
+          "url": "https://falconinvisiblegrill.com"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Chennai"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Invisible Grill Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Window Grills Installation",
+              "priceCurrency": "INR",
+              "price": "400-700",
+              "url": "https://falconinvisiblegrill.com/window-grills-chennai"
+            },
+            {
+              "@type": "Offer",
+              "name": "Balcony Grills Installation",
+              "priceCurrency": "INR",
+              "price": "400-800",
+              "url": "https://falconinvisiblegrill.com/balcony-grills-chennai"
+            }
+          ]
+        }
+      })}</script>
+
+      {/* BreadcrumbList Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://falconinvisiblegrill.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Invisible Grills in Chennai",
+            "item": "https://falconinvisiblegrill.com/invisible-grills-chennai"
+          }
+        ]
+      })}</script>
+
+      {/* FAQPage Schema for Rich Snippets */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are Falcon invisible grills available in all areas of Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! We serve all major areas including Thiruvanmiyur, Besant Nagar, T. Nagar, Anna Nagar, OMR/Sholinganallur, Adyar, Mylapore, and surrounding neighborhoods. Same-day consultation available."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the cost of invisible grills in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Prices vary based on window size and specifications. Typical range: ₹400-800 per sq.ft. We offer free on-site measurement and transparent quote."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does installation take in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Average installation: 2-5 days depending on complexity. We handle all material and labor. Our Chennai team has 15+ years of experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Falcon offer warranty in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! 15-year durability guarantee on all invisible grills. Covers rust resistance, wire durability, and frame integrity. Free maintenance service in first year."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are invisible grills safe for children and pets?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! Our grills meet international safety standards. They prevent falls and unwanted entry while being invisible. Tested with 200+ kg force."
+            }
+          }
+        ]
       })}</script>
 
       {/* Hero Section */}
