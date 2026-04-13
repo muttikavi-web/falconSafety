@@ -187,11 +187,46 @@ export default function ChennaiLanding() {
       <Helmet>
         <title>Invisible Grills in Chennai | 24 Years Best Quality | Falcon - ₹400-800/sqft</title>
         <meta name="description" content="Falcon Invisible Grills Chennai - 24 years experience, 2000+ installations. Best invisible grills for windows & balconies. ₹400-800/sqft. Serving Thiruvanmiyur, T. Nagar, Anna Nagar, Besant Nagar. 48-hour installation, lifetime warranty." />
-        <meta name="keywords" content="invisible grills in chennai, invisible window grills, balcony invisible grills, transparent safety grills, invisible grills price, thiruvanmiyur, anna nagar, t nagar, besant nagar" />
+        <meta name="keywords" content="invisible grills in chennai, invisible grill in chennai, invisible window grills, balcony invisible grills, transparent safety grills, invisible grills price, invisible grill price in chennai, thiruvanmiyur, anna nagar, t nagar, besant nagar, child safety grill, pet safety grill, best invisible grill chen nai" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        
+        {/* Geographical Meta Tags - Chennai Specific */}
+        <meta name="geo.placename" content="Chennai, Tamil Nadu" />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.position" content="13.0827;80.2707" />
+        <meta name="ICBM" content="13.0827, 80.2707" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
         <meta property="og:title" content="Invisible Grills in Chennai - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Best invisible grills in Chennai with 2000+ installations. Transparent safety grills for windows & balconies. 48-hour professional installation, lifetime warranty." />
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Invisible Grills in Chennai - ₹400-800/sqft | Falcon" />
+        <meta property="twitter:description" content="Best invisible grill in Chennai with 24 years experience. Free consultation & 48-hour installation available." />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        
+        {/* Canonical URL */}
+        <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-chennai" />
         <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-chennai" />
+        
+        {/* Home Link for Link Juice */}
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
+        
+        {/* Article Metadata */}
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
       {/* Schema Markup */}
       <script type="application/ld+json">{JSON.stringify({
@@ -237,6 +272,8 @@ export default function ChennaiLanding() {
         <div className="chennai-hero-content">
           <h1>Invisible Grills in Chennai | Best Transparent Safety Grills for Windows & Balconies</h1>
           <p>Best invisible grills with crystal-clear visibility across Chennai. Premium safety solutions with child-safe protection, 2000+ installations, 15-year durability guarantee, and ₹0 Installation Charges. Get installation within 48 hours.</p>
+          
+          <h2>Falcon Invisible Grills - Chennai's Most Trusted Solution</h2>
           <div className="hero-stats">
             <div className="stat">
               <h3>2,000+</h3>

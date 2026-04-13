@@ -7,11 +7,43 @@ export default function VizagLanding() {
       <Helmet>
         <title>Invisible Grills in Vizag | 24 Years Best Quality | Visakhapatnam Safety Grills</title>
         <meta name="description" content="Falcon Invisible Grills Vizag - 24 years, 1200+ installations. Best invisible grills for Visakhapatnam. Transparent safety solutions for windows & balconies. ₹400-800/sqft. Coastal-resistant, lifetime warranty." />
-        <meta name="keywords" content="invisible grills vizag, invisible grills visakhapatnam, transparent safety grills, balcony grills, window grills, coastal resistant grills" />
+        <meta name="keywords" content="invisible grills vizag, invisible grills visakhapatnam, invisible grills in vizag, transparent safety grills, balcony grills, window grills, coastal resistant grills, child safety grill vizag" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        
+        {/* Geographical Meta Tags - Vizag Specific */}
+        <meta name="geo.placename" content="Visakhapatnam, Andhra Pradesh" />
+        <meta name="geo.region" content="IN-AP" />
+        <meta name="geo.position" content="17.6869;83.2185" />
+        <meta name="ICBM" content="17.6869, 83.2185" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
         <meta property="og:title" content="Invisible Grills in Vizag - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Best invisible grills in Visakhapatnam with 1200+ installations. Coastal-resistant, premium quality, lifetime warranty." />
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-vizag" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Invisible Grills in Vizag - ₹400-800/sqft" />
+        <meta property="twitter:description" content="Best invisible grill in Visakhapatnam with coastal-resistant technology." />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        
+        {/* Canonical URL and Home Link */}
         <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-vizag" />
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
+        
+        {/* Article Metadata */}
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
@@ -25,6 +57,7 @@ export default function VizagLanding() {
       <h1>Invisible Grills in Vizag | Premium Rust-Resistant Coastal Safety Grills</h1>
       <p>Best transparent safety grills designed for Vizag's coastal climate. Invisible protection for windows and balconies with 316-grade rust-resistant stainless steel, professional installation, 15-year warranty, free consultation.</p>
 
+      <h2>Falcon Invisible Grills - Vizag's Most Trusted Solution</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', margin: '40px 0' }}>
         <div style={{ background: '#f0f4ff', padding: '20px', borderRadius: '8px' }}>
           <h3>1,200+</h3>
@@ -63,13 +96,14 @@ export default function VizagLanding() {
       </ul>
 
       <h2>FAQ: Invisible Grills for Vizag Coastal Homes</h2>
-      <p><strong>Q: Will invisible grills rust in Vizag's coastal climate?</strong></p>
+      
+      <h3>Q: Will invisible grills rust in Vizag's coastal climate?</h3>
       <p>A: No. Our premium grade 316 stainless steel is specifically designed for coastal environments. Tested for salt spray resistance. 15-year durability guarantee in coastal areas.</p>
 
-      <p><strong>Q: How expensive are invisible grills for coastal protection?</strong></p>
+      <h3>Q: How expensive are invisible grills for coastal protection?</h3>
       <p>A: Premium coastal-grade: ₹600-1000/sq ft (higher than non-coastal). Investment in durability saves replacement costs.</p>
 
-      <p><strong>Q: Can I see the ocean view through invisible grills?</strong></p>
+      <h3>Q: Can I see the ocean view through invisible grills?</h3>
       <p>A: Yes! 99% visibility maintained. Especially important for your Bay view apartments. Crystal-clear transparent mesh.</p>
 
       <h2>Invisible Grills Protection for Your Vizag Home</h2>

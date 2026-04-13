@@ -7,11 +7,43 @@ export default function BangaloreLanding() {
       <Helmet>
         <title>Invisible Grills in Bangalore | 24 Years Best Quality | ₹400-800/sqft</title>
         <meta name="description" content="Falcon Invisible Grills Bangalore - 24 years, 1500+ installations. Best invisible grills for Indiranagar, Koramangala, Whitefield, MG Road. ₹400-800/sqft. 48-hour installation, lifetime warranty." />
-        <meta name="keywords" content="invisible grills bangalore, invisible window grills, balcony grills, koramangala, indiranagar, whitefield, bangalore grills price" />
+        <meta name="keywords" content="invisible grills bangalore, invisible grills in bangalore, invisible window grills, balcony grills, koramangala, indiranagar, whitefield, bangalore grills price, transparent safety grills, child safety grill bangalore" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        
+        {/* Geographical Meta Tags - Bangalore Specific */}
+        <meta name="geo.placename" content="Bangalore, Karnataka" />
+        <meta name="geo.region" content="IN-KA" />
+        <meta name="geo.position" content="12.9716;77.5946" />
+        <meta name="ICBM" content="12.9716, 77.5946" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
         <meta property="og:title" content="Invisible Grills in Bangalore - 24 Years Best Quality | Falcon" />
         <meta property="og:description" content="Best invisible grills in Bangalore with 1500+ installations. Transparent safety solutions for windows & balconies. 48-hour professional installation." />
         <meta property="og:url" content="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Invisible Grills in Bangalore - ₹400-800/sqft" />
+        <meta property="twitter:description" content="Best invisible grill in Bangalore with 24 years experience." />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        
+        {/* Canonical URL and Home Link */}
         <link rel="canonical" href="https://falconinvisiblegrill.com/invisible-grills-bangalore" />
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
+        
+        {/* Article Metadata */}
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
       </Helmet>
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
@@ -25,6 +57,7 @@ export default function BangaloreLanding() {
       <h1>Falcon Invisible Grills in Bangalore | Best Transparent Safety Grills for Windows & Balconies</h1>
       <p>Best invisible grills with crystal-clear visibility across Bangalore neighborhoods. Premium safety solutions with 1500+ installations, professional installation, 15-year warranty, and zero hidden charges.</p>
 
+      <h2>Falcon Invisible Grills - Bangalore's Top Choice</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', margin: '40px 0' }}>
         <div style={{ background: '#f0f4ff', padding: '20px', borderRadius: '8px' }}>
           <h3>1,500+</h3>
@@ -57,13 +90,14 @@ export default function BangaloreLanding() {
       </ul>
 
       <h2>FAQ: Invisible Grills in Bangalore</h2>
-      <p><strong>Q: How much do invisible grills cost in Bangalore?</strong></p>
+      
+      <h3>Q: How much do invisible grills cost in Bangalore?</h3>
       <p>A: ₹400-900/sq ft depending on neighborhood and specification. Indiranagar and Koramangala typically on higher end due to premium properties.</p>
 
-      <p><strong>Q: Are they suitable for Bangalore weather?</strong></p>
+      <h3>Q: Are they suitable for Bangalore weather?</h3>
       <p>A: Yes. Bangalore's weather is actually ideal for invisible grills - moderate humidity means less corrosion risk compared to coastal cities.</p>
 
-      <p><strong>Q: How long is installation in Bangalore?</strong></p>
+      <h3>Q: How long is installation in Bangalore?</h3>
       <p>A: 2-5 days for average home. Same-day consultation available across Bangalore neighborhoods.</p>
 
       <h2>Bangalore's Best Invisible Grill Solution</h2>

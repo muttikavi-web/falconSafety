@@ -35,6 +35,7 @@ import VideoShowcase from './components/VideoShowcase';
 import PricingTiers from './components/PricingTiers';
 import BrochureDownload from './components/BrochureDownload';
 import BenefitsSection from './components/BenefitsSection';
+import SeoDedicatedMeta from './components/SeoDedicatedMeta';
 import './App.css';
 
 // Main Home Page
@@ -44,11 +45,58 @@ function HomePage() {
       <Helmet>
         <title>Invisible Grills Chennai | 24 Years Best Invisible Window Grills | Falcon Grills</title>
         <meta name="description" content="Falcon Invisible Grills - 24 years experience & best invisible grills in Chennai. Premium Invisible Window Grills & Balcony Invisible Grills from ₹400-800/sqft. 4500+ happy customers, 4.9/5 rating, 48-hour installation, lifetime support." />
-        <meta name="keywords" content="invisible grills, invisible grills price, invisible grills chennai, invisible window grills, balcony invisible grills, invisible grill cost, invisible grills installation, best invisible grills" />
+        <meta name="keywords" content="invisible grills, invisible grills price, invisible grills chennai, invisible window grills, balcony invisible grills, invisible grill cost, invisible grills installation, best invisible grills, transparent grills, safety grills, window grills price, invisible grill in chennai" />
+        
+        {/* Additional Meta Tags for Enhanced SEO */}
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="publisher" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="content-language" content="en-IN" />
+        
+        {/* Geographical Meta Tags */}
+        <meta name="geo.placename" content="Chennai" />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.position" content="13.0827;80.2707" />
+        <meta name="ICBM" content="13.0827, 80.2707" />
+        
+        {/* Open Graph Meta Tags - Enhanced */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/" />
         <meta property="og:title" content="Invisible Grills - 24 Years Best Quality | Falcon Invisible Grills" />
         <meta property="og:description" content="Falcon Invisible Grills - 24 Years of Excellence! Best Invisible Grills in Chennai. Premium Invisible Window & Balcony Grills. ₹400-800/sqft. 4500+ homes protected. Lifetime warranty & support!" />
+        <meta property="og:image" content="https://falconinvisiblegrill.com/og-image.jpg" />
+        <meta property="og:image:alt" content="Falcon Invisible Grills - Premium Quality Window and Balcony Grills" />
+        <meta property="og:site_name" content="Falcon Invisible Grills" />
+        <meta property="og:locale" content="en_IN" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://falconinvisiblegrill.com/" />
+        <meta property="twitter:title" content="Invisible Grills - 24 Years Best Experience | ₹400-800/sqft" />
+        <meta property="twitter:description" content="Falcon Invisible Grills - 24 Years of Excellence! Best Invisible Grills & Window Grills in Chennai. 4500+ homes protected. Free consultation. Call now!" />
+        <meta property="twitter:image" content="https://falconinvisiblegrill.com/twitter-image.jpg" />
+        <meta name="twitter:creator" content="@FalconGrills" />
+        <meta name="twitter:site" content="@FalconGrills" />
+        
+        {/* Canonical URL */}
         <link rel="canonical" href="https://falconinvisiblegrill.com/" />
+        
+        {/* Home Link for Link Juice */}
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills" />
+        
+        {/* Alternate Links for Mobile */}
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://falconinvisiblegrill.com/" />
+        
+        {/* Theme Color */}
+        <meta name="theme-color" content="#0f172a" />
+        <meta name="msapplication-TileColor" content="#d4af37" />
       </Helmet>
+      <SeoDedicatedMeta />
       <Header />
       <NotificationPopup />
       <WhatsAppChat />
