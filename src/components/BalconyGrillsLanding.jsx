@@ -5,7 +5,7 @@ export default function BalconyGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Balcony Grills in Chennai | Best Invisible Grill in Chennai | ₹400-800/sqft</title>
+        <title>Best Invisible Balcony Grills Chennai | ₹400-800/sqft</title>
         <meta name="description" content="Falcon Invisible Balcony Grills in Chennai - Best invisible grill in chennai with 24 years, 2000+ installations. Premium transparent grills for balconies. Unobstructed views, 400kg+ weight capacity. ₹400-800/sqft. Lifetime warranty." />
         <meta name="keywords" content="invisible grill in chennai, balcony invisible grills, balcony grills chennai, transparent balcony grills, invisible grill, safety grills for balcony, invisible grill price, balcony protection, best invisible grill in chennai" />
         

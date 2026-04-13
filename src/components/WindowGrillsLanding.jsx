@@ -5,7 +5,7 @@ export default function WindowGrillsLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Window Grills in Chennai | Best Invisible Grill in Chennai | ₹400-700/sqft</title>
+        <title>Best Invisible Window Grills Chennai | ₹400-700/sqft</title>
         <meta name="description" content="Falcon Invisible Window Grills in Chennai - Best invisible grill in chennai with 24 years experience, 2000+ installations. Premium transparent safety grills for windows. ₹400-700/sqft. 48-hour professional installation, lifetime warranty." />
         <meta name="keywords" content="invisible grill in chennai, invisible window grills, window grills chennai, transparent window grills, invisible grill, window grill price, safety grills for windows, window protection, invisible grills price, best invisible grill in chennai" />
         

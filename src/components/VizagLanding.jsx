@@ -5,7 +5,7 @@ export default function VizagLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Grills in Vizag | 24 Years Best Quality | Visakhapatnam Safety Grills</title>
+        <title>Best Invisible Grills Vizag | Coastal Rust-Proof | Falcon</title>
         <meta name="description" content="Falcon Invisible Grills Vizag - 24 years, 1200+ installations. Best invisible grills for Visakhapatnam. Transparent safety solutions for windows & balconies. ₹400-800/sqft. Coastal-resistant, lifetime warranty." />
         <meta name="keywords" content="invisible grills vizag, invisible grills visakhapatnam, invisible grills in vizag, transparent safety grills, balcony grills, window grills, coastal resistant grills, child safety grill vizag" />
         

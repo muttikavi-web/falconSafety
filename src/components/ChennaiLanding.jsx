@@ -185,7 +185,7 @@ export default function ChennaiLanding() {
   return (
     <div className="chennai-landing">
       <Helmet>
-        <title>Invisible Grills in Chennai | 24 Years Best Quality | Falcon - ₹400-800/sqft</title>
+        <title>Falcon Invisible Grill| Invisible Grill in Chennai</title>
         <meta name="description" content="Falcon Invisible Grills Chennai - 24 years experience, 2000+ installations. Best invisible grills for windows & balconies. ₹400-800/sqft. Serving Thiruvanmiyur, T. Nagar, Anna Nagar, Besant Nagar. 48-hour installation, lifetime warranty." />
         <meta name="keywords" content="invisible grills in chennai, invisible grill in chennai, invisible window grills, balcony invisible grills, transparent safety grills, invisible grills price, invisible grill price in chennai, thiruvanmiyur, anna nagar, t nagar, besant nagar, child safety grill, pet safety grill, best invisible grill chen nai" />
         

@@ -5,7 +5,7 @@ export default function BangaloreLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Grills in Bangalore | 24 Years Best Quality | ₹400-800/sqft</title>
+        <title>Best Invisible Grills Bangalore | ₹400-800/sqft</title>
         <meta name="description" content="Falcon Invisible Grills Bangalore - 24 years, 1500+ installations. Best invisible grills for Indiranagar, Koramangala, Whitefield, MG Road. ₹400-800/sqft. 48-hour installation, lifetime warranty." />
         <meta name="keywords" content="invisible grills bangalore, invisible grills in bangalore, invisible window grills, balcony grills, koramangala, indiranagar, whitefield, bangalore grills price, transparent safety grills, child safety grill bangalore" />
         

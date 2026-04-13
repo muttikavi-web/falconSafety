@@ -5,7 +5,7 @@ export default function CostLanding() {
   return (
     <div style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
       <Helmet>
-        <title>Invisible Grill Cost & Price in Chennai | Best Invisible Grill | ₹300-850/sqft</title>
+        <title>Invisible Grill Cost Chennai | ₹400-800/sqft Pricing</title>
         <meta name="description" content="Falcon Invisible Grill Cost in Chennai - Best invisible grill pricing from ₹300-850/sqft. Window grills ₹400-700/sqft, balcony grills ₹400-800/sqft. Free quote, no hidden charges. 24 years experience, transparent pricing." />
         <meta name="keywords" content="invisible grill cost, invisible grill price, invisible grill in chennai, grill price per sqft, cost breakdown, transparent pricing, invisible grill price in chennai, quote calculator" />
         
