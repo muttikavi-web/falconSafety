@@ -7,11 +7,86 @@ export default function ChildSafetyGrillsLanding() {
       <Helmet>
         <title>Child Safety Invisible Grills | 24 Years Best Quality | Prevent Falls</title>
         <meta name="description" content="Falcon Child Safety Invisible Grills - 24 years, certified safety. Prevent child/toddler falls from windows & balconies. Transparent design, ₹450-800/sqft. 2000+ families trust us. Lifetime warranty." />
-        <meta name="keywords" content="child safety grills, baby safety grills, prevent window falls, balcony safety, toddler protection, child safe invisible grills, window safety" />
+        <meta name="keywords" content="child safety grills, baby safety grills, prevent window falls, balcony safety, toddler protection, child safe invisible grills, window safety, invisible grill in chennai" />
+        <meta name="author" content="Falcon Invisible Grills" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+        
+        {/* Geographical Meta Tags */}
+        <meta name="geo.placename" content="Chennai" />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.position" content="13.0827;80.2707" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="article" />
         <meta property="og:title" content="Child Safety Invisible Grills - Prevent Falls | Falcon" />
         <meta property="og:description" content="Certified child-safe invisible grills. Protect kids from falls while maintaining views. 2000+ families trust Falcon." />
+        <meta property="og:url" content="https://falconinvisiblegrill.com/child-safety-grills" />
+        <meta property="og:image" content="https://falconinvisiblegrill.com/og-image-child-safety.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Child Safety Invisible Grills | Falcon" />
+        <meta property="twitter:description" content="Prevent child falls with certified safety invisible grills" />
+        
+        {/* Article Metadata */}
+        <meta property="article:section" content="Safety Solutions" />
+        <meta property="article:published_time" content="2024-01-01T00:00:00+05:30" />
+        <meta property="article:modified_time" content="2026-04-13T00:00:00+05:30" />
+        <meta property="article:author" content="Falcon Invisible Grills" />
+        
         <link rel="canonical" href="https://falconinvisiblegrill.com/child-safety-grills" />
+        <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
       </Helmet>
+      
+      {/* LocalBusiness Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Falcon Child Safety Invisible Grills - Chennai",
+        "description": "Certified child-safe invisible grills to prevent falls. 24 years experience, 2000+ families trust us.",
+        "url": "https://falconinvisiblegrill.com/child-safety-grills",
+        "areaServed": ["Chennai"],
+        "priceRange": "₹450-₹800"
+      })}</script>
+
+      {/* Service Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Child Safety Invisible Grills Installation",
+        "description": "Professional installation of child-safe invisible grills for windows and balconies",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Falcon Invisible Grills",
+          "url": "https://falconinvisiblegrill.com"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Chennai"
+        }
+      })}</script>
+
+      {/* BreadcrumbList Schema */}
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://falconinvisiblegrill.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Child Safety Invisible Grills",
+            "item": "https://falconinvisiblegrill.com/child-safety-grills"
+          }
+        ]
+      })}</script>
       
       <h1>Child Safety Grills | Best Protection from Falls & Accidents for Kids & Toddlers</h1>
       <p style={{ fontSize: '1.1em', color: '#666', marginBottom: '30px' }}>Invisible safety grills protect children from balcony and window falls. Tested for 200+ kg force. 2000+ families in Chennai trust Falcon for child safety. Professional installation, 15-year warranty.</p>
