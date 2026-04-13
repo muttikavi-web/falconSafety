@@ -45,40 +45,6 @@ export default function SeoDedicatedMeta() {
       {/* Content Type */}
       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
       <meta http-equiv="content-language" content="en-IN" />
-      
-      {/* Additional Structured Data - FAQ Schema */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is the price of invisible grill in Chennai?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "At Falcon Invisible Grills, the invisible grill price in Chennai ranges from ₹400-800 per square foot, depending on size and specifications. Get a free quote for your exact requirements."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Which is the best invisible grill in Chennai?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Falcon Invisible Grills is the best invisible grill provider in Chennai with 24 years experience, 4500+ installations, 4.9/5 customer rating, and lifetime warranty."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How long does invisible grill installation take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Invisible grill installation takes 48 hours, including on-site measurement, customization, and professional installation by our expert team."
-              }
-            }
-          ]
-        })}
-      </script>
 
       {/* Home Hyperlink for Link Juice Distribution */}
       <link rel="home" href="https://falconinvisiblegrill.com/" title="Falcon Invisible Grills - Home" />
