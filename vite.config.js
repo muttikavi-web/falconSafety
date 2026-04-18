@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { ViteSitemapPlugin } from 'vite-plugin-sitemap'
+import sitemapPlugin from 'vite-plugin-sitemap'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    ViteSitemapPlugin({
+    sitemapPlugin({
       hostname: 'https://falconinvisiblegrill.com',
-      routes: [
+      dynamicRoutes: [
         '/',
         '/invisible-grills-chennai',
         '/invisible-grills-bangalore',
